@@ -1,0 +1,413 @@
+2013/06/02 14:26:13 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000]: Syntax error or access violation: 1115 Unknown character set: 'utf8_decode(data)8'' in C:\wamp\www\yii\framework\db\CDbConnection.php:381
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\wamp\www\yii\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\wamp\www\yii\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(442): CModule->getComponent('db')
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(451): MigrateCommand->getDbConnection()
+#5 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(482): MigrateCommand->getMigrationHistory(-1)
+#6 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp(Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#9 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#10 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#11 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#12 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#13 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#14 {main}
+---
+2013/06/02 14:26:19 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000]: Syntax error or access violation: 1115 Unknown character set: 'utf8_decode(data)8'' in C:\wamp\www\yii\framework\db\CDbConnection.php:381
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\wamp\www\yii\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\wamp\www\yii\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(442): CModule->getComponent('db')
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(451): MigrateCommand->getDbConnection()
+#5 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(128): MigrateCommand->getMigrationHistory(1)
+#6 [internal function]: MigrateCommand->actionDown(Array)
+#7 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#9 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#10 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#11 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#12 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#13 {main}
+---
+2013/06/02 14:26:26 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000]: Syntax error or access violation: 1115 Unknown character set: 'utf8_decode(data)8'' in C:\wamp\www\yii\framework\db\CDbConnection.php:381
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\wamp\www\yii\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\wamp\www\yii\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(442): CModule->getComponent('db')
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(451): MigrateCommand->getDbConnection()
+#5 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(482): MigrateCommand->getMigrationHistory(-1)
+#6 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp(Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#9 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#10 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#11 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#12 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#13 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#14 {main}
+---
+2013/06/02 14:26:38 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000]: Syntax error or access violation: 1115 Unknown character set: 'utf8_decode(data)'' in C:\wamp\www\yii\framework\db\CDbConnection.php:381
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\wamp\www\yii\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\wamp\www\yii\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(442): CModule->getComponent('db')
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(451): MigrateCommand->getDbConnection()
+#5 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(482): MigrateCommand->getMigrationHistory(-1)
+#6 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp(Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#9 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#10 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#11 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#12 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#13 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#14 {main}
+---
+2013/06/02 14:26:56 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bis_yii.tbl_migration' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_migration`.
+2013/06/02 14:26:59 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'string(100) NOT NULL,
+	`password` string(100) NOT NULL,
+	`email` string(100) NOT' at line 3. The SQL statement executed was: CREATE TABLE `tbl_user` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`username` string(100) NOT NULL,
+	`password` string(100) NOT NULL,
+	`email` string(100) NOT NULL
+).
+2013/06/02 14:26:59 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'string(100) NOT NULL,
+	`password` string(100) NOT NULL,
+	`email` string(100) NOT' at line 3. The SQL statement executed was: CREATE TABLE `tbl_user` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`username` string(100) NOT NULL,
+	`password` string(100) NOT NULL,
+	`email` string(100) NOT NULL
+)' in C:\wamp\www\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(1321): CDbCommand->execute()
+#1 C:\wamp\www\yii\framework\db\CDbMigration.php(228): CDbCommand->createTable('tbl_user', Array, NULL)
+#2 C:\wamp\www\BIS\protected\migrations\m130602_142516_default_real_user.php(13): CDbMigration->createTable('tbl_user', Array)
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(385): m130602_142516_default_real_user->up()
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(109): MigrateCommand->migrateUp('m130602_142516_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#10 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#12 {main}
+---
+2013/06/02 14:27:14 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'string(100) NOT NULL,
+	`password` string(100) NOT NULL,
+	`email` string(100) NOT' at line 3. The SQL statement executed was: CREATE TABLE `tbl_user` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`username` string(100) NOT NULL,
+	`password` string(100) NOT NULL,
+	`email` string(100) NOT NULL
+).
+2013/06/02 14:27:14 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'string(100) NOT NULL,
+	`password` string(100) NOT NULL,
+	`email` string(100) NOT' at line 3. The SQL statement executed was: CREATE TABLE `tbl_user` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`username` string(100) NOT NULL,
+	`password` string(100) NOT NULL,
+	`email` string(100) NOT NULL
+)' in C:\wamp\www\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(1321): CDbCommand->execute()
+#1 C:\wamp\www\yii\framework\db\CDbMigration.php(228): CDbCommand->createTable('tbl_user', Array, NULL)
+#2 C:\wamp\www\BIS\protected\migrations\m130602_142516_default_real_user.php(13): CDbMigration->createTable('tbl_user', Array)
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(385): m130602_142516_default_real_user->up()
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(109): MigrateCommand->migrateUp('m130602_142516_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#10 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#12 {main}
+---
+2013/06/02 14:33:09 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'string(180) NOT NULL,
+	`password` string(180) NOT NULL,
+	`email` string(180) NOT' at line 3. The SQL statement executed was: CREATE TABLE `tbl_user` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`username` string(180) NOT NULL,
+	`password` string(180) NOT NULL,
+	`email` string(180) NOT NULL
+).
+2013/06/02 14:33:09 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'string(180) NOT NULL,
+	`password` string(180) NOT NULL,
+	`email` string(180) NOT' at line 3. The SQL statement executed was: CREATE TABLE `tbl_user` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`username` string(180) NOT NULL,
+	`password` string(180) NOT NULL,
+	`email` string(180) NOT NULL
+)' in C:\wamp\www\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(1321): CDbCommand->execute()
+#1 C:\wamp\www\yii\framework\db\CDbMigration.php(228): CDbCommand->createTable('tbl_user', Array, NULL)
+#2 C:\wamp\www\BIS\protected\migrations\m130602_142516_default_real_user.php(13): CDbMigration->createTable('tbl_user', Array)
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(385): m130602_142516_default_real_user->up()
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(109): MigrateCommand->migrateUp('m130602_142516_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#10 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#12 {main}
+---
+2013/06/02 14:33:14 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'string(180) NOT NULL,
+	`password` string(180) NOT NULL,
+	`email` string(180) NOT' at line 3. The SQL statement executed was: CREATE TABLE `tbl_user` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`username` string(180) NOT NULL,
+	`password` string(180) NOT NULL,
+	`email` string(180) NOT NULL
+).
+2013/06/02 14:33:14 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'string(180) NOT NULL,
+	`password` string(180) NOT NULL,
+	`email` string(180) NOT' at line 3. The SQL statement executed was: CREATE TABLE `tbl_user` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`username` string(180) NOT NULL,
+	`password` string(180) NOT NULL,
+	`email` string(180) NOT NULL
+)' in C:\wamp\www\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(1321): CDbCommand->execute()
+#1 C:\wamp\www\yii\framework\db\CDbMigration.php(228): CDbCommand->createTable('tbl_user', Array, NULL)
+#2 C:\wamp\www\BIS\protected\migrations\m130602_142516_default_real_user.php(13): CDbMigration->createTable('tbl_user', Array)
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(385): m130602_142516_default_real_user->up()
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(109): MigrateCommand->migrateUp('m130602_142516_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#10 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#12 {main}
+---
+2013/06/02 14:33:31 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'string(180) NOT NULL,
+	`password` string(180) NOT NULL,
+	`email` string(180) NOT' at line 3. The SQL statement executed was: CREATE TABLE `tbl_user` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`username` string(180) NOT NULL,
+	`password` string(180) NOT NULL,
+	`email` string(180) NOT NULL
+).
+2013/06/02 14:33:31 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'string(180) NOT NULL,
+	`password` string(180) NOT NULL,
+	`email` string(180) NOT' at line 3. The SQL statement executed was: CREATE TABLE `tbl_user` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`username` string(180) NOT NULL,
+	`password` string(180) NOT NULL,
+	`email` string(180) NOT NULL
+)' in C:\wamp\www\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(1321): CDbCommand->execute()
+#1 C:\wamp\www\yii\framework\db\CDbMigration.php(228): CDbCommand->createTable('tbl_user', Array, NULL)
+#2 C:\wamp\www\BIS\protected\migrations\m130602_142516_default_real_user.php(13): CDbMigration->createTable('tbl_user', Array)
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(385): m130602_142516_default_real_user->up()
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(109): MigrateCommand->migrateUp('m130602_142516_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#10 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#12 {main}
+---
+2013/06/02 14:35:15 [error] [exception.CException] exception 'CException' with message 'Property "CDbConnection.interactive" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\yii\framework\YiiBase.php(220): CComponent->__set('interactive', 0)
+#1 C:\wamp\www\yii\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(442): CModule->getComponent('db')
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(451): MigrateCommand->getDbConnection()
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(128): MigrateCommand->getMigrationHistory(1)
+#5 [internal function]: MigrateCommand->actionDown(Array)
+#6 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#10 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#12 {main}
+---
+2013/06/02 14:35:18 [error] [exception.CException] exception 'CException' with message 'Property "CDbConnection.interactive" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\yii\framework\YiiBase.php(220): CComponent->__set('interactive', 0)
+#1 C:\wamp\www\yii\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(442): CModule->getComponent('db')
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(451): MigrateCommand->getDbConnection()
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(482): MigrateCommand->getMigrationHistory(-1)
+#5 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#6 [internal function]: MigrateCommand->actionUp(Array)
+#7 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#9 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#10 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#11 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#12 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#13 {main}
+---
+2013/06/02 14:37:00 [error] [exception.CException] exception 'CException' with message 'Property "CDbConnection.interactive" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\yii\framework\YiiBase.php(220): CComponent->__set('interactive', 0)
+#1 C:\wamp\www\yii\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(442): CModule->getComponent('db')
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(451): MigrateCommand->getDbConnection()
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(482): MigrateCommand->getMigrationHistory(-1)
+#5 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#6 [internal function]: MigrateCommand->actionUp(Array)
+#7 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#9 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#10 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#11 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#12 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#13 {main}
+---
+2013/06/05 18:05:50 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bis_yii.animalmodel' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `AnimalModel`.
+2013/06/05 18:05:50 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bis_yii.animalmodel' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `AnimalModel`.
+2013/06/05 18:06:24 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bis_yii.help' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `help`.
+2013/06/05 18:06:24 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bis_yii.help' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `help`.
+2013/06/05 18:08:56 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bis_yii.animalmodel' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `AnimalModel`.
+2013/06/05 19:06:39 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'animal_name' in 'field list'. The SQL statement executed was: INSERT INTO `tbl_keeper` (`animal_name`, `animal_description`, `animal_birthday`) VALUES (:animal_name, :animal_description, :animal_birthday).
+2013/06/05 19:06:39 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'animal_name' in 'field list'. The SQL statement executed was: INSERT INTO `tbl_keeper` (`animal_name`, `animal_description`, `animal_birthday`) VALUES (:animal_name, :animal_description, :animal_birthday)' in C:\wamp\www\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(1247): CDbCommand->execute(Array)
+#1 C:\wamp\www\yii\framework\db\CDbMigration.php(173): CDbCommand->insert('tbl_keeper', Array)
+#2 C:\wamp\www\BIS\protected\modules\keeper\migrations\m130605_185708_create_keeper_table.php(23): CDbMigration->insert('tbl_keeper', Array)
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(385): m130605_185708_create_keeper_table->up()
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(109): MigrateCommand->migrateUp('m130605_185708_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#10 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#12 {main}
+---
+2013/06/05 19:07:13 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'tbl_keeper' already exists. The SQL statement executed was: CREATE TABLE `tbl_keeper` (
+	`keeper_id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`keeper_name` varchar(50),
+	`keeper_description` varchar(80),
+	`keeper_birthday` datetime
+).
+2013/06/05 19:07:13 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'tbl_keeper' already exists. The SQL statement executed was: CREATE TABLE `tbl_keeper` (
+	`keeper_id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`keeper_name` varchar(50),
+	`keeper_description` varchar(80),
+	`keeper_birthday` datetime
+)' in C:\wamp\www\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(1321): CDbCommand->execute()
+#1 C:\wamp\www\yii\framework\db\CDbMigration.php(228): CDbCommand->createTable('tbl_keeper', Array, NULL)
+#2 C:\wamp\www\BIS\protected\modules\keeper\migrations\m130605_185708_create_keeper_table.php(13): CDbMigration->createTable('tbl_keeper', Array)
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(385): m130605_185708_create_keeper_table->up()
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(109): MigrateCommand->migrateUp('m130605_185708_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#10 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#12 {main}
+---
+2013/06/05 19:07:23 [error] [php] require_once(C:\wamp\www\BIS\protected\modules\keeper\migrations\m130605_175950_create_animal_table.php): failed to open stream: No such file or directory (C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php:428)
+Stack trace:
+#0 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(145): MigrateCommand->migrateDown()
+#1 unknown(0): MigrateCommand->actionDown()
+#2 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#3 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): MigrateCommand->run()
+#4 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run()
+#5 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#6 C:\wamp\www\yii\framework\yiic.php(33): CConsoleApplication->run()
+#7 C:\wamp\www\BIS\protected\yiic.php(7): require_once()
+
+2013/06/05 19:07:35 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'tbl_keeper' already exists. The SQL statement executed was: CREATE TABLE `tbl_keeper` (
+	`keeper_id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`keeper_name` varchar(50),
+	`keeper_description` varchar(80),
+	`keeper_birthday` datetime
+).
+2013/06/05 19:07:35 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'tbl_keeper' already exists. The SQL statement executed was: CREATE TABLE `tbl_keeper` (
+	`keeper_id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`keeper_name` varchar(50),
+	`keeper_description` varchar(80),
+	`keeper_birthday` datetime
+)' in C:\wamp\www\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(1321): CDbCommand->execute()
+#1 C:\wamp\www\yii\framework\db\CDbMigration.php(228): CDbCommand->createTable('tbl_keeper', Array, NULL)
+#2 C:\wamp\www\BIS\protected\modules\keeper\migrations\m130605_185708_create_keeper_table.php(13): CDbMigration->createTable('tbl_keeper', Array)
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(385): m130605_185708_create_keeper_table->up()
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(109): MigrateCommand->migrateUp('m130605_185708_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#10 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#12 {main}
+---
+2013/06/05 19:07:40 [error] [php] require_once(C:\wamp\www\BIS\protected\modules\keeper\migrations\m130605_175950_create_animal_table.php): failed to open stream: No such file or directory (C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php:428)
+Stack trace:
+#0 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(145): MigrateCommand->migrateDown()
+#1 unknown(0): MigrateCommand->actionDown()
+#2 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#3 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): MigrateCommand->run()
+#4 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run()
+#5 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#6 C:\wamp\www\yii\framework\yiic.php(33): CConsoleApplication->run()
+#7 C:\wamp\www\BIS\protected\yiic.php(7): require_once()
+
+2013/06/05 19:07:54 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'tbl_keeper' already exists. The SQL statement executed was: CREATE TABLE `tbl_keeper` (
+	`keeper_id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`keeper_name` varchar(50),
+	`keeper_description` varchar(80),
+	`keeper_birthday` datetime
+).
+2013/06/05 19:07:54 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'tbl_keeper' already exists. The SQL statement executed was: CREATE TABLE `tbl_keeper` (
+	`keeper_id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`keeper_name` varchar(50),
+	`keeper_description` varchar(80),
+	`keeper_birthday` datetime
+)' in C:\wamp\www\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(1321): CDbCommand->execute()
+#1 C:\wamp\www\yii\framework\db\CDbMigration.php(228): CDbCommand->createTable('tbl_keeper', Array, NULL)
+#2 C:\wamp\www\BIS\protected\modules\keeper\migrations\m130605_185708_create_keeper_table.php(13): CDbMigration->createTable('tbl_keeper', Array)
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(385): m130605_185708_create_keeper_table->up()
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(109): MigrateCommand->migrateUp('m130605_185708_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#10 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#12 {main}
+---
+2013/06/05 19:08:04 [error] [php] require_once(C:\wamp\www\BIS\protected\modules\keeper\migrations\m130605_175950_create_animal_table.php): failed to open stream: No such file or directory (C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php:428)
+Stack trace:
+#0 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(145): MigrateCommand->migrateDown()
+#1 unknown(0): MigrateCommand->actionDown()
+#2 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#3 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): MigrateCommand->run()
+#4 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run()
+#5 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#6 C:\wamp\www\yii\framework\yiic.php(33): CConsoleApplication->run()
+#7 C:\wamp\www\BIS\protected\yiic.php(7): require_once()
+

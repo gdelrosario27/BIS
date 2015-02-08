@@ -1,0 +1,2111 @@
+2013/05/27 17:44:53 [info] [application] 5f4dcc3b5aa765d61d8327deb882cf99
+in C:\wamp\www\BIS\protected\models\User.php (90)
+in C:\wamp\www\BIS\protected\components\UserIdentity.php (31)
+in C:\wamp\www\BIS\protected\models\LoginForm.php (52)
+2013/05/27 17:44:55 [info] [application] 5f4dcc3b5aa765d61d8327deb882cf99
+in C:\wamp\www\BIS\protected\models\User.php (90)
+in C:\wamp\www\BIS\protected\components\UserIdentity.php (31)
+in C:\wamp\www\BIS\protected\models\LoginForm.php (52)
+2013/05/27 18:25:35 [error] [php] Undefined variable: userExist (C:\wamp\www\BIS\protected\models\User.php:91)
+Stack trace:
+#0 C:\wamp\www\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate()
+#1 C:\wamp\www\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute()
+#2 C:\wamp\www\yii\framework\base\CModel.php(159): CInlineValidator->validate()
+#3 C:\wamp\www\BIS\protected\controllers\SiteController.php(94): LoginForm->validate()
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#5 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\wamp\www\yii\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\wamp\www\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\wamp\www\BIS\index.php(13): CWebApplication->run()
+REQUEST_URI=/BIS/index.php/site/login
+in C:\wamp\www\BIS\protected\models\User.php (91)
+in C:\wamp\www\BIS\protected\components\UserIdentity.php (31)
+in C:\wamp\www\BIS\protected\models\LoginForm.php (52)
+2013/05/27 18:28:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/user
+---
+2013/05/27 18:28:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "User".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('User')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/User
+---
+2013/05/27 18:32:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "register".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('register')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/register
+---
+2013/05/27 18:32:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "logout".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('logout')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/logout
+---
+2013/05/27 18:32:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Logout".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Logout')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/Logout
+---
+2013/05/27 18:32:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Contact".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Contact')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/Contact
+---
+2013/05/27 18:32:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contact".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('contact')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/contact
+---
+2013/05/27 18:33:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "login".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('login')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/login
+---
+2013/05/27 18:33:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Login".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Login')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/Login
+---
+2013/05/28 18:53:53 [error] [exception.CException] exception 'CException' with message 'Property "GiiModule.generatorsPaths" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\yii\framework\base\CModule.php(513): CComponent->__set('generatorsPaths', Array)
+#1 C:\wamp\www\yii\framework\base\CModule.php(86): CModule->configure(Array)
+#2 C:\wamp\www\yii\framework\YiiBase.php(206): CModule->__construct('gii', NULL, Array)
+#3 C:\wamp\www\yii\framework\base\CModule.php(282): YiiBase::createComponent('system.gii.GiiM...', 'gii', NULL, Array)
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(337): CModule->getModule('gii')
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CWebApplication->createController('gii')
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#7 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/BIS/gii
+---
+2013/05/28 18:54:32 [error] [exception.CException] exception 'CException' with message 'Property "GiiModule.generatorsPaths" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\yii\framework\base\CModule.php(513): CComponent->__set('generatorsPaths', Array)
+#1 C:\wamp\www\yii\framework\base\CModule.php(86): CModule->configure(Array)
+#2 C:\wamp\www\yii\framework\YiiBase.php(206): CModule->__construct('gii', NULL, Array)
+#3 C:\wamp\www\yii\framework\base\CModule.php(282): YiiBase::createComponent('system.gii.GiiM...', 'gii', NULL, Array)
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(337): CModule->getModule('gii')
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CWebApplication->createController('gii')
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#7 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/BIS/gii
+---
+2013/05/28 18:54:43 [error] [exception.CException] exception 'CException' with message 'Alias "gii.GiiModule" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\wamp\www\yii\framework\YiiBase.php:316
+Stack trace:
+#0 C:\wamp\www\yii\framework\YiiBase.php(196): YiiBase::import('gii.GiiModule', true)
+#1 C:\wamp\www\yii\framework\base\CModule.php(282): YiiBase::createComponent('gii.GiiModule', 'gii', NULL, Array)
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(337): CModule->getModule('gii')
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CWebApplication->createController('gii')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/BIS/gii
+---
+2013/05/28 18:55:23 [error] [exception.CException] exception 'CException' with message 'Property "GiiModule.generatorsPaths" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\yii\framework\base\CModule.php(513): CComponent->__set('generatorsPaths', Array)
+#1 C:\wamp\www\yii\framework\base\CModule.php(86): CModule->configure(Array)
+#2 C:\wamp\www\yii\framework\YiiBase.php(206): CModule->__construct('gii', NULL, Array)
+#3 C:\wamp\www\yii\framework\base\CModule.php(282): YiiBase::createComponent('system.gii.GiiM...', 'gii', NULL, Array)
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(337): CModule->getModule('gii')
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CWebApplication->createController('gii')
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#7 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/BIS/gii
+---
+2013/05/28 18:55:52 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.widgets.TbHeroUnit" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\wamp\www\yii\framework\YiiBase.php:316
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWidgetFactory.php(146): YiiBase::import('bootstrap.widge...', true)
+#1 C:\wamp\www\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(189): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\wamp\www\BIS\themes\bootstrap\views\site\index.php(9): CBaseController->beginWidget('bootstrap.widge...', Array)
+#4 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\BIS...')
+#5 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\BIS...', NULL, true)
+#6 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\BIS...', NULL, true)
+#7 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#8 C:\wamp\www\BIS\protected\controllers\SiteController.php(32): CController->render('index')
+#9 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#14 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#15 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/BIS/
+---
+2013/05/28 18:59:03 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.widgets.TbHeroUnit" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\wamp\www\yii\framework\YiiBase.php:316
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWidgetFactory.php(146): YiiBase::import('bootstrap.widge...', true)
+#1 C:\wamp\www\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(189): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\wamp\www\BIS\themes\bootstrap\views\site\index.php(9): CBaseController->beginWidget('bootstrap.widge...', Array)
+#4 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\BIS...')
+#5 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\BIS...', NULL, true)
+#6 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\BIS...', NULL, true)
+#7 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#8 C:\wamp\www\BIS\protected\controllers\SiteController.php(32): CController->render('index')
+#9 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#14 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#15 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/BIS/
+---
+2013/06/01 12:46:03 [info] [application] sample log message
+in C:\wamp\www\BIS\protected\controllers\TestController.php (44)
+in C:\wamp\www\BIS\index.php (13)
+2013/06/01 13:46:28 [info] [application] sample log message
+in C:\wamp\www\BIS\protected\controllers\TestController.php (44)
+in C:\wamp\www\BIS\index.php (13)
+2013/06/02 12:19:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/user
+---
+2013/06/02 12:19:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "register".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('register')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/register
+---
+2013/06/02 12:19:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Register".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Register')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/Register
+---
+2013/06/02 12:19:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Register".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Register')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/Register
+---
+2013/06/02 12:19:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "logout".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('logout')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/logout
+---
+2013/06/02 12:36:25 [error] [exception.CException] exception 'CException' with message 'TbActiveForm and its behaviors do not have a method or closure named "emailFieldRow".' in C:\wamp\www\yii\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\wamp\www\BIS\protected\views\site\user.php(34): CComponent->__call('emailFieldRow', Array)
+#1 C:\wamp\www\BIS\protected\views\site\user.php(34): TbActiveForm->emailFieldRow(Object(User), 'email')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\BIS...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\BIS...', Array, true)
+#4 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\BIS...', Array, true)
+#5 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('user', Array, true)
+#6 C:\wamp\www\BIS\protected\controllers\SiteController.php(123): CController->render('user', Array)
+#7 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#8 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#13 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/BIS/index.php/site/register
+---
+2013/06/02 12:46:43 [error] [exception.CException] exception 'CException' with message 'Property "User.rememberMe" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('rememberMe')
+#1 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2255): CActiveRecord->__get('rememberMe')
+#2 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1506): CHtml::resolveValue(Object(User), 'rememberMe')
+#3 C:\wamp\www\yii\framework\web\widgets\CActiveForm.php(747): CHtml::activeCheckBox(Object(User), 'rememberMe', Array)
+#4 C:\wamp\www\BIS\protected\extensions\bootstrap\widgets\input\TbInputHorizontal.php(51): CActiveForm->checkBox(Object(User), 'rememberMe', Array)
+#5 C:\wamp\www\BIS\protected\extensions\bootstrap\widgets\input\TbInput.php(189): TbInputHorizontal->checkBox()
+#6 C:\wamp\www\BIS\protected\extensions\bootstrap\widgets\input\TbInputHorizontal.php(24): TbInput->run()
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(173): TbInputHorizontal->run()
+#8 C:\wamp\www\BIS\protected\extensions\bootstrap\widgets\TbActiveForm.php(497): CBaseController->widget('bootstrap.widge...', Array)
+#9 C:\wamp\www\BIS\protected\extensions\bootstrap\widgets\TbActiveForm.php(73): TbActiveForm->inputRow('checkbox', Object(User), 'rememberMe', NULL, Array)
+#10 C:\wamp\www\BIS\protected\views\site\user.php(35): TbActiveForm->checkBoxRow(Object(User), 'rememberMe')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\BIS...')
+#12 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\BIS...', Array, true)
+#13 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\BIS...', Array, true)
+#14 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('user', Array, true)
+#15 C:\wamp\www\BIS\protected\controllers\SiteController.php(123): CController->render('user', Array)
+#16 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#17 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#21 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#22 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#23 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/BIS/index.php/site/register
+---
+2013/06/02 14:02:51 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1049] Unknown database 'bis55_yii'' in C:\wamp\www\yii\framework\db\CDbConnection.php:381
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\wamp\www\yii\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\wamp\www\yii\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\wamp\www\yii\framework\base\CApplication.php(438): CModule->getComponent('db')
+#4 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(623): CApplication->getDb()
+#5 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(User))
+#7 C:\wamp\www\BIS\protected\models\User.php(20): CActiveRecord::model('User')
+#8 C:\wamp\www\BIS\protected\models\User.php(91): User::model()
+#9 C:\wamp\www\BIS\protected\components\UserIdentity.php(31): User::userExist('dfsdf', 'ff')
+#10 C:\wamp\www\BIS\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#11 C:\wamp\www\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#12 C:\wamp\www\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#13 C:\wamp\www\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#14 C:\wamp\www\BIS\protected\controllers\SiteController.php(94): CModel->validate()
+#15 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#16 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#18 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#20 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#21 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#22 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/BIS/index.php/site/login
+HTTP_REFERER=http://localhost:8080/BIS/index.php/site/login
+---
+2013/06/02 14:02:58 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bis_yii.tbl_user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_user`.
+in C:\wamp\www\BIS\protected\models\User.php (20)
+in C:\wamp\www\BIS\protected\models\User.php (91)
+in C:\wamp\www\BIS\protected\components\UserIdentity.php (31)
+2013/06/02 14:02:58 [error] [exception.CDbException] exception 'CDbException' with message 'The table "tbl_user" for active record class "User" cannot be found in the database.' in C:\wamp\www\yii\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(User))
+#1 C:\wamp\www\BIS\protected\models\User.php(20): CActiveRecord::model('User')
+#2 C:\wamp\www\BIS\protected\models\User.php(91): User::model()
+#3 C:\wamp\www\BIS\protected\components\UserIdentity.php(31): User::userExist('dfsdf', 'ff')
+#4 C:\wamp\www\BIS\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#5 C:\wamp\www\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#6 C:\wamp\www\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#7 C:\wamp\www\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#8 C:\wamp\www\BIS\protected\controllers\SiteController.php(94): CModel->validate()
+#9 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/BIS/index.php/site/login
+HTTP_REFERER=http://localhost:8080/BIS/index.php/site/login
+---
+2013/06/02 14:17:53 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bis_yii.tbl_user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_user`.
+in C:\wamp\www\BIS\protected\models\User.php (20)
+in C:\wamp\www\BIS\protected\models\User.php (91)
+in C:\wamp\www\BIS\protected\components\UserIdentity.php (31)
+2013/06/02 14:17:53 [error] [exception.CDbException] exception 'CDbException' with message 'The table "tbl_user" for active record class "User" cannot be found in the database.' in C:\wamp\www\yii\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(User))
+#1 C:\wamp\www\BIS\protected\models\User.php(20): CActiveRecord::model('User')
+#2 C:\wamp\www\BIS\protected\models\User.php(91): User::model()
+#3 C:\wamp\www\BIS\protected\components\UserIdentity.php(31): User::userExist(';als,dl,', ';l;,')
+#4 C:\wamp\www\BIS\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#5 C:\wamp\www\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#6 C:\wamp\www\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#7 C:\wamp\www\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#8 C:\wamp\www\BIS\protected\controllers\SiteController.php(94): CModel->validate()
+#9 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/BIS/index.php/site/login
+HTTP_REFERER=http://localhost:8080/BIS/index.php/site/login
+---
+2013/06/02 14:54:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "residet".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('residet')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/index.php/residet
+---
+2013/06/05 17:37:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "help".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('help')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/index.php/help
+---
+2013/06/05 18:23:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "create".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('create')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('animals/create')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/bis/index.php/animals/create
+---
+2013/06/05 18:23:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "create".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('create')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('animals/create')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/bis/index.php/animals/create
+---
+2013/06/05 18:23:46 [error] [exception.CException] exception 'CException' with message 'Property "AnimalForm.animal_name" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2255): CComponent->__get('animal_name')
+#1 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(AnimalForm), 'animal_name')
+#2 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1257): CHtml::activeInputField('text', Object(AnimalForm), 'animal_name', Array)
+#3 C:\wamp\www\yii\framework\web\widgets\CActiveForm.php(657): CHtml::activeTextField(Object(AnimalForm), 'animal_name', Array)
+#4 C:\wamp\www\BIS\protected\views\animals\_form.php(14): CActiveForm->textField(Object(AnimalForm), 'animal_name')
+#5 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\BIS...')
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\BIS...', Array, true)
+#7 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\BIS...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('_form', Array, true)
+#9 C:\wamp\www\BIS\protected\controllers\AnimalsController.php(28): CController->render('_form', Array)
+#10 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): AnimalsController->actionCreate()
+#11 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#15 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('animals/create')
+#16 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#17 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/bis/index.php/animals/create
+---
+2013/06/05 18:33:14 [warning] [application] Failed to set unsafe attribute "animal_description" of "AnimalForm".
+in C:\wamp\www\BIS\protected\controllers\AnimalsController.php (22)
+in C:\wamp\www\BIS\index.php (13)
+2013/06/05 18:33:14 [warning] [application] Failed to set unsafe attribute "animal_birthday" of "AnimalForm".
+in C:\wamp\www\BIS\protected\controllers\AnimalsController.php (22)
+in C:\wamp\www\BIS\index.php (13)
+2013/06/05 18:37:31 [error] [exception.CException] exception 'CException' with message 'Property "AnimalForm.username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2255): CComponent->__get('username')
+#1 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(AnimalForm), 'username')
+#2 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1257): CHtml::activeInputField('text', Object(AnimalForm), 'username', Array)
+#3 C:\wamp\www\yii\framework\web\widgets\CActiveForm.php(657): CHtml::activeTextField(Object(AnimalForm), 'username', Array)
+#4 C:\wamp\www\BIS\protected\extensions\bootstrap\widgets\input\TbInputHorizontal.php(181): CActiveForm->textField(Object(AnimalForm), 'username', Array)
+#5 C:\wamp\www\BIS\protected\extensions\bootstrap\widgets\input\TbInput.php(230): TbInputHorizontal->textField()
+#6 C:\wamp\www\BIS\protected\extensions\bootstrap\widgets\input\TbInputHorizontal.php(24): TbInput->run()
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(173): TbInputHorizontal->run()
+#8 C:\wamp\www\BIS\protected\extensions\bootstrap\widgets\TbActiveForm.php(497): CBaseController->widget('bootstrap.widge...', Array)
+#9 C:\wamp\www\BIS\protected\extensions\bootstrap\widgets\TbActiveForm.php(186): TbActiveForm->inputRow('text', Object(AnimalForm), 'username', NULL, Array)
+#10 C:\wamp\www\BIS\protected\views\animals\_createForm.php(23): TbActiveForm->textFieldRow(Object(AnimalForm), 'username')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\BIS...')
+#12 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\BIS...', Array, true)
+#13 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\BIS...', Array, true)
+#14 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('_createForm', Array, true)
+#15 C:\wamp\www\BIS\protected\controllers\AnimalsController.php(28): CController->render('_createForm', Array)
+#16 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): AnimalsController->actionCreate()
+#17 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#21 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('animals/create')
+#22 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#23 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/bis/index.php/animals/create
+---
+2013/06/05 18:44:04 [warning] [application] Failed to set unsafe attribute "animal_description" of "AnimalForm".
+in C:\wamp\www\BIS\protected\controllers\AnimalsController.php (22)
+in C:\wamp\www\BIS\index.php (13)
+2013/06/05 18:44:04 [warning] [application] Failed to set unsafe attribute "animal_birthday" of "AnimalForm".
+in C:\wamp\www\BIS\protected\controllers\AnimalsController.php (22)
+in C:\wamp\www\BIS\index.php (13)
+2013/06/05 18:50:11 [warning] [application] Failed to set unsafe attribute "animal_description" of "AnimalForm".
+in C:\wamp\www\BIS\protected\controllers\AnimalsController.php (22)
+in C:\wamp\www\BIS\index.php (13)
+2013/06/05 18:50:11 [warning] [application] Failed to set unsafe attribute "animal_birthday" of "AnimalForm".
+in C:\wamp\www\BIS\protected\controllers\AnimalsController.php (22)
+in C:\wamp\www\BIS\index.php (13)
+2013/06/05 18:50:34 [warning] [application] Failed to set unsafe attribute "animal_description" of "AnimalForm".
+in C:\wamp\www\BIS\protected\controllers\AnimalsController.php (22)
+in C:\wamp\www\BIS\index.php (13)
+2013/06/05 18:50:34 [warning] [application] Failed to set unsafe attribute "animal_birthday" of "AnimalForm".
+in C:\wamp\www\BIS\protected\controllers\AnimalsController.php (22)
+in C:\wamp\www\BIS\index.php (13)
+2013/06/05 18:50:38 [warning] [application] Failed to set unsafe attribute "animal_description" of "AnimalForm".
+in C:\wamp\www\BIS\protected\controllers\AnimalsController.php (22)
+in C:\wamp\www\BIS\index.php (13)
+2013/06/05 18:50:38 [warning] [application] Failed to set unsafe attribute "animal_birthday" of "AnimalForm".
+in C:\wamp\www\BIS\protected\controllers\AnimalsController.php (22)
+in C:\wamp\www\BIS\index.php (13)
+2013/06/05 18:50:40 [warning] [application] Failed to set unsafe attribute "animal_description" of "AnimalForm".
+in C:\wamp\www\BIS\protected\controllers\AnimalsController.php (22)
+in C:\wamp\www\BIS\index.php (13)
+2013/06/05 18:50:40 [warning] [application] Failed to set unsafe attribute "animal_birthday" of "AnimalForm".
+in C:\wamp\www\BIS\protected\controllers\AnimalsController.php (22)
+in C:\wamp\www\BIS\index.php (13)
+2013/06/05 18:51:11 [warning] [application] Failed to set unsafe attribute "animal_description" of "AnimalForm".
+in C:\wamp\www\BIS\protected\controllers\AnimalsController.php (22)
+in C:\wamp\www\BIS\index.php (13)
+2013/06/05 18:51:11 [warning] [application] Failed to set unsafe attribute "animal_birthday" of "AnimalForm".
+in C:\wamp\www\BIS\protected\controllers\AnimalsController.php (22)
+in C:\wamp\www\BIS\index.php (13)
+2013/06/05 18:53:26 [warning] [application] Failed to set unsafe attribute "animal_description" of "AnimalForm".
+in C:\wamp\www\BIS\protected\controllers\AnimalsController.php (22)
+in C:\wamp\www\BIS\index.php (13)
+2013/06/05 18:53:26 [warning] [application] Failed to set unsafe attribute "animal_birthday" of "AnimalForm".
+in C:\wamp\www\BIS\protected\controllers\AnimalsController.php (22)
+in C:\wamp\www\BIS\index.php (13)
+2013/06/05 18:53:53 [warning] [application] Failed to set unsafe attribute "animal_description" of "AnimalForm".
+in C:\wamp\www\BIS\protected\controllers\AnimalsController.php (22)
+in C:\wamp\www\BIS\index.php (13)
+2013/06/05 18:53:53 [warning] [application] Failed to set unsafe attribute "animal_birthday" of "AnimalForm".
+in C:\wamp\www\BIS\protected\controllers\AnimalsController.php (22)
+in C:\wamp\www\BIS\index.php (13)
+2013/06/05 18:54:04 [warning] [application] Failed to set unsafe attribute "animal_description" of "AnimalForm".
+in C:\wamp\www\BIS\protected\controllers\AnimalsController.php (22)
+in C:\wamp\www\BIS\index.php (13)
+2013/06/05 18:54:04 [warning] [application] Failed to set unsafe attribute "animal_birthday" of "AnimalForm".
+in C:\wamp\www\BIS\protected\controllers\AnimalsController.php (22)
+in C:\wamp\www\BIS\index.php (13)
+2013/06/06 16:59:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "keeper".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('keeper')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bis/index.php/keeper
+---
+2013/06/06 17:00:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('keeper/awesome')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/bis/index.php/keeper/awesome
+---
+2013/06/06 17:03:17 [error] [exception.CException] exception 'CException' with message 'Property "ModelCode.model" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\gii\generators\model\ModelCode.php(186): CComponent->__get('model')
+#1 C:\wamp\www\yii\framework\validators\CInlineValidator.php(42): ModelCode->validateBaseClass('baseClass', Array)
+#2 C:\wamp\www\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(ModelCode), 'baseClass')
+#3 C:\wamp\www\yii\framework\base\CModel.php(159): CValidator->validate(Object(ModelCode), NULL)
+#4 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(159): CModel->validate()
+#5 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#6 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#7 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#11 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model')
+#12 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/bis/index.php/gii/model
+HTTP_REFERER=http://localhost:8080/bis/index.php/gii/model
+---
+2013/06/06 17:03:29 [error] [exception.CException] exception 'CException' with message 'Property "ModelCode.model" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\gii\generators\model\ModelCode.php(186): CComponent->__get('model')
+#1 C:\wamp\www\yii\framework\validators\CInlineValidator.php(42): ModelCode->validateBaseClass('baseClass', Array)
+#2 C:\wamp\www\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(ModelCode), 'baseClass')
+#3 C:\wamp\www\yii\framework\base\CModel.php(159): CValidator->validate(Object(ModelCode), NULL)
+#4 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(159): CModel->validate()
+#5 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#6 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#7 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#11 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model')
+#12 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/bis/index.php/gii/model
+HTTP_REFERER=http://localhost:8080/bis/index.php/gii/model
+---
+2013/06/06 17:03:50 [error] [exception.CException] exception 'CException' with message 'Property "ModelCode.model" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\gii\generators\model\ModelCode.php(186): CComponent->__get('model')
+#1 C:\wamp\www\yii\framework\validators\CInlineValidator.php(42): ModelCode->validateBaseClass('baseClass', Array)
+#2 C:\wamp\www\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(ModelCode), 'baseClass')
+#3 C:\wamp\www\yii\framework\base\CModel.php(159): CValidator->validate(Object(ModelCode), NULL)
+#4 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(159): CModel->validate()
+#5 C:\wamp\www\yii\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#6 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#7 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#11 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model')
+#12 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/bis/index.php/gii/model
+HTTP_REFERER=http://localhost:8080/bis/index.php/gii/model
+---
+2013/06/06 17:32:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "keeper/create".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('keeper/create')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bis/index.php/keeper/create
+---
+2013/06/06 17:32:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "keeper/create".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('keeper/create')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bis/index.php/keeper/create
+---
+2013/06/06 17:33:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "keeper/create".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('keeper/create')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bis/index.php/keeper/create
+---
+2013/06/06 17:33:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "keeper/create".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('keeper/create')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bis/index.php/keeper/create
+---
+2013/06/06 17:33:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "keeper/show".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('keeper/show')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bis/index.php/keeper/show
+---
+2013/06/06 17:34:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "keeper/default4".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('keeper/default4')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bis/index.php/keeper/default4
+---
+2013/06/06 17:37:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "keeper/create".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('keeper/create')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bis/index.php/keeper/create
+---
+2013/06/06 17:43:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "keeper/create".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('keeper/create')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bis/index.php/keeper/create
+---
+2013/06/06 17:43:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "keeper/Create".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('keeper/Create')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bis/index.php/keeper/Create
+---
+2013/06/06 18:14:20 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('keeper/keeper/c...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/bis/index.php/keeper/keeper/create/1
+---
+2013/06/06 18:14:25 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('keeper/keeper/c...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/bis/index.php/keeper/keeper/create/
+---
+2013/06/06 18:14:27 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('keeper/keeper/c...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/bis/index.php/keeper/keeper/create/
+---
+2013/06/06 18:14:36 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('keeper/keeper/c...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/bis/index.php/keeper/keeper/create/1
+---
+2013/06/06 18:17:43 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('keeper/keeper/c...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/bis/index.php/keeper/keeper/create
+---
+2013/06/06 18:17:52 [error] [php] Undefined variable: params1 (C:\wamp\www\BIS\protected\modules\keeper\controllers\KeeperController.php:15)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(286): KeeperController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(265): KeeperController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(282): KeeperController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\BIS\index.php(13): CWebApplication->run()
+REQUEST_URI=/bis/index.php/keeper/keeper/create
+in C:\wamp\www\BIS\protected\modules\keeper\controllers\KeeperController.php (15)
+in C:\wamp\www\BIS\index.php (13)
+2013/06/06 18:18:34 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('showing')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('keeper/keeper/s...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/bis/index.php/keeper/keeper/showing
+---
+2013/06/06 18:18:37 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('showing')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('keeper/keeper/s...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/bis/index.php/keeper/keeper/showing/1
+---
+2013/06/06 18:18:40 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('showing')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('keeper/keeper/s...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/bis/index.php/keeper/keeper/showing/?a=1
+---
+2013/06/06 18:21:07 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('showing')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('keeper/keeper/s...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/bis/index.php/keeper/keeper/showing
+---
+2013/06/06 18:22:40 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('showing')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('keeper/keeper/s...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/bis/index.php/keeper/keeper/showing
+---
+2013/06/06 18:23:25 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('showing')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('keeper/keeper/s...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/bis/index.php/keeper/keeper/showing
+---
+2013/06/06 18:23:26 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('showing')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('keeper/keeper/s...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/bis/index.php/keeper/keeper/showing/1
+---
+2013/06/06 18:24:07 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('showing')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('keeper/keeper/s...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/bis/index.php/keeper/keeper/showing/1
+---
+2013/06/06 18:25:17 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('showing')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('keeper/keeper/s...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/bis/index.php/keeper/keeper/showing/1
+---
+2013/06/06 18:25:26 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('showing')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('keeper/keeper/s...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/bis/index.php/keeper/keeper/showing/1
+---
+2013/06/06 18:25:28 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('showing')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('keeper/keeper/s...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/bis/index.php/keeper/keeper/showing/
+---
+2013/06/06 18:25:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "aklsdasd".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('aklsdasd')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('aklsdasd')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('keeper/keeper/a...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/bis/index.php/keeper/keeper/aklsdasd
+---
+2013/06/06 18:28:43 [error] [php] Missing argument 1 for CHttpRequest::getQuery(), called in C:\wamp\www\BIS\protected\modules\keeper\controllers\KeeperController.php on line 17 and defined (C:\wamp\www\yii\framework\web\CHttpRequest.php:171)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wamp\www\yii\framework\web\CController.php(286): KeeperController->runAction()
+#2 C:\wamp\www\yii\framework\web\CController.php(265): KeeperController->runActionWithFilters()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): KeeperController->run()
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\BIS\index.php(13): CWebApplication->run()
+REQUEST_URI=/bis/index.php/keeper/keeper/create/something/asdnalsd
+in C:\wamp\www\BIS\protected\modules\keeper\controllers\KeeperController.php (17)
+in C:\wamp\www\BIS\index.php (13)
+2013/06/06 18:44:19 [error] [exception.CException] exception 'CException' with message 'The URL pattern "<module:w\>/<controller:\w+>/<id:\d+>" for route "<module><controller>/create" is not a valid regular expression.' in C:\wamp\www\yii\framework\web\CUrlManager.php:698
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CUrlManager.php(268): CUrlRule->__construct('<module><contro...', '<module:w\>/<co...')
+#1 C:\wamp\www\yii\framework\web\CUrlManager.php(226): CUrlManager->createUrlRule('<module><contro...', '<module:w\>/<co...')
+#2 C:\wamp\www\yii\framework\web\CUrlManager.php(206): CUrlManager->processRules()
+#3 C:\wamp\www\yii\framework\base\CModule.php(387): CUrlManager->init()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(510): CModule->getComponent('urlManager')
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(140): CApplication->getUrlManager()
+#6 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/bis/keeper/keeper
+---
+2013/06/06 18:44:21 [error] [exception.CException] exception 'CException' with message 'The URL pattern "<module:w\>/<controller:\w+>/<id:\d+>" for route "<module><controller>/create" is not a valid regular expression.' in C:\wamp\www\yii\framework\web\CUrlManager.php:698
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CUrlManager.php(268): CUrlRule->__construct('<module><contro...', '<module:w\>/<co...')
+#1 C:\wamp\www\yii\framework\web\CUrlManager.php(226): CUrlManager->createUrlRule('<module><contro...', '<module:w\>/<co...')
+#2 C:\wamp\www\yii\framework\web\CUrlManager.php(206): CUrlManager->processRules()
+#3 C:\wamp\www\yii\framework\base\CModule.php(387): CUrlManager->init()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(510): CModule->getComponent('urlManager')
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(140): CApplication->getUrlManager()
+#6 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/bis/keeper/keeper/1
+---
+2013/06/06 18:44:36 [error] [exception.CException] exception 'CException' with message 'The URL pattern "<module:w\>/<controller:\w+>/<id:\d+>" for route "<module><controller>/create" is not a valid regular expression.' in C:\wamp\www\yii\framework\web\CUrlManager.php:698
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CUrlManager.php(268): CUrlRule->__construct('<module><contro...', '<module:w\>/<co...')
+#1 C:\wamp\www\yii\framework\web\CUrlManager.php(226): CUrlManager->createUrlRule('<module><contro...', '<module:w\>/<co...')
+#2 C:\wamp\www\yii\framework\web\CUrlManager.php(206): CUrlManager->processRules()
+#3 C:\wamp\www\yii\framework\base\CModule.php(387): CUrlManager->init()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(510): CModule->getComponent('urlManager')
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(140): CApplication->getUrlManager()
+#6 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/bis/keeper/keeper/
+---
+2013/06/06 18:44:39 [error] [exception.CException] exception 'CException' with message 'The URL pattern "<module:w\>/<controller:\w+>/<id:\d+>" for route "<module><controller>/create" is not a valid regular expression.' in C:\wamp\www\yii\framework\web\CUrlManager.php:698
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CUrlManager.php(268): CUrlRule->__construct('<module><contro...', '<module:w\>/<co...')
+#1 C:\wamp\www\yii\framework\web\CUrlManager.php(226): CUrlManager->createUrlRule('<module><contro...', '<module:w\>/<co...')
+#2 C:\wamp\www\yii\framework\web\CUrlManager.php(206): CUrlManager->processRules()
+#3 C:\wamp\www\yii\framework\base\CModule.php(387): CUrlManager->init()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(510): CModule->getComponent('urlManager')
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(140): CApplication->getUrlManager()
+#6 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/bis/keeper/keeper/keeper
+---
+2013/06/06 18:44:42 [error] [exception.CException] exception 'CException' with message 'The URL pattern "<module:w\>/<controller:\w+>/<id:\d+>" for route "<module><controller>/create" is not a valid regular expression.' in C:\wamp\www\yii\framework\web\CUrlManager.php:698
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CUrlManager.php(268): CUrlRule->__construct('<module><contro...', '<module:w\>/<co...')
+#1 C:\wamp\www\yii\framework\web\CUrlManager.php(226): CUrlManager->createUrlRule('<module><contro...', '<module:w\>/<co...')
+#2 C:\wamp\www\yii\framework\web\CUrlManager.php(206): CUrlManager->processRules()
+#3 C:\wamp\www\yii\framework\base\CModule.php(387): CUrlManager->init()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(510): CModule->getComponent('urlManager')
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(140): CApplication->getUrlManager()
+#6 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/bis/keeper/keeper/1
+---
+2013/06/06 18:45:15 [error] [exception.CException] exception 'CException' with message 'The URL pattern "<module:w\>/<controller:\w+>/<id:\d+>" for route "<module>/<controller>/create" is not a valid regular expression.' in C:\wamp\www\yii\framework\web\CUrlManager.php:698
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CUrlManager.php(268): CUrlRule->__construct('<module>/<contr...', '<module:w\>/<co...')
+#1 C:\wamp\www\yii\framework\web\CUrlManager.php(226): CUrlManager->createUrlRule('<module>/<contr...', '<module:w\>/<co...')
+#2 C:\wamp\www\yii\framework\web\CUrlManager.php(206): CUrlManager->processRules()
+#3 C:\wamp\www\yii\framework\base\CModule.php(387): CUrlManager->init()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(510): CModule->getComponent('urlManager')
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(140): CApplication->getUrlManager()
+#6 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/bis/keeper/keeper/1
+---
+2013/06/06 18:54:15 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "request".' in C:\wamp\www\yii\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\wamp\www\BIS\protected\modules\keeper\controllers\KeeperController.php(18): CComponent->__call('request', Array)
+#1 C:\wamp\www\BIS\protected\modules\keeper\controllers\KeeperController.php(18): CWebApplication->request()
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): KeeperController->actionCreate()
+#3 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('keeper/keeper/c...')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/bis/index.php/keeper/keeper/create/?a=1
+---
+2013/06/06 19:04:32 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('showing')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('keeper/keeper/s...')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/bis/index.php/keeper/keeper/showing
+---
+2013/06/06 19:05:15 [error] [php] Undefined variable: param (C:\wamp\www\BIS\protected\modules\keeper\controllers\KeeperController.php:23)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(286): KeeperController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(265): KeeperController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(282): KeeperController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\BIS\index.php(13): CWebApplication->run()
+REQUEST_URI=/bis/index.php/keeper/keeper/showing
+in C:\wamp\www\BIS\protected\modules\keeper\controllers\KeeperController.php (23)
+in C:\wamp\www\BIS\index.php (13)
+2013/06/06 19:05:52 [error] [exception.CException] exception 'CException' with message 'KeeperController cannot find the requested view "_form".' in C:\wamp\www\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('_form', NULL, true)
+#1 C:\wamp\www\BIS\protected\modules\keeper\controllers\KeeperController.php(23): CController->render('_form')
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): KeeperController->actionShowing()
+#3 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('showing')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('keeper/keeper/s...')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/bis/index.php/keeper/keeper/showing
+---
+2013/06/06 19:12:59 [error] [exception.CException] exception 'CException' with message 'KeeperController cannot find the requested view "_form".' in C:\wamp\www\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('_form', NULL, true)
+#1 C:\wamp\www\BIS\protected\modules\keeper\controllers\KeeperController.php(23): CController->render('_form')
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): KeeperController->actionShowing()
+#3 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('showing')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('keeper/keeper/s...')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/bis/index.php/keeper/keeper/showing
+---
+2013/06/06 19:15:05 [error] [php] Undefined variable: model (C:\wamp\www\BIS\protected\modules\keeper\views\_form.php:10)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(869): KeeperController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(782): KeeperController->renderPartial()
+#2 C:\wamp\www\BIS\protected\modules\keeper\controllers\KeeperController.php(23): KeeperController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): KeeperController->actionShowing()
+#4 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(286): KeeperController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(265): KeeperController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(282): KeeperController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wamp\www\BIS\index.php(13): CWebApplication->run()
+REQUEST_URI=/bis/index.php/keeper/keeper/showing
+in C:\wamp\www\BIS\protected\modules\keeper\views\_form.php (10)
+in C:\wamp\www\BIS\protected\modules\keeper\controllers\KeeperController.php (23)
+in C:\wamp\www\BIS\index.php (13)
+2013/06/07 17:17:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "keeper/create".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('keeper/create')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/index.php/keeper/create
+---
+2013/06/07 17:17:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "keeper/showing".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('keeper/showing')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/index.php/keeper/showing
+---
+2013/06/07 17:18:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "keeper/showing".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('keeper/showing')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/index.php/keeper/showing
+---
+2013/06/07 17:18:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "keeper/create".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('keeper/create')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/index.php/keeper/create
+---
+2013/06/07 17:18:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "createa".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('createa')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('createa')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('keeper/keeper/c...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/BIS/index.php/keeper/keeper/createa
+---
+2013/06/07 17:20:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "createa".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('createa')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('createa')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('keeper/keeper/c...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/BIS/index.php/keeper/keeper/createa
+---
+2013/06/09 07:07:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "resident".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('resident')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('resident')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('resident/reside...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/BIS/resident/resident
+---
+2013/06/09 07:10:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('keeper/sometime...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/BIS/keeper/sometimes
+---
+2013/06/09 07:12:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sometimes".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sometimes')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/sometimes
+---
+2013/06/09 07:12:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "keeper/war".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('keeper/war')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/keeper/war
+---
+2013/06/09 07:12:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "war".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('war')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('war')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('keeper/keeper/w...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/BIS/keeper/keeper/war
+---
+2013/06/09 08:00:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dashboard".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/dashboard
+---
+2013/06/09 08:01:00 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "temp_dashboard_content".' in C:\wamp\www\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('temp_dashboard_...', NULL, true)
+#1 C:\wamp\www\BIS\protected\controllers\SiteController.php(129): CController->render('temp_dashboard_...')
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionDashboard()
+#3 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('dashboard')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/dashboard')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/BIS/site/dashboard
+---
+2013/06/09 08:11:23 [error] [exception.CException] exception 'CException' with message 'Property "TbMenu.fixed" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('fixed', 'top')
+#1 C:\wamp\www\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\wamp\www\BIS\protected\extensions\bootstrap\widgets\TbNavbar.php(155): CBaseController->widget('bootstrap.widge...', Array)
+#4 C:\wamp\www\yii\framework\web\CBaseController.php(173): TbNavbar->run()
+#5 C:\wamp\www\BIS\themes\bootstrap\views\layouts\dashboard.php(33): CBaseController->widget('bootstrap.widge...', Array)
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\BIS...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\BIS...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\BIS...', Array, true)
+#9 C:\wamp\www\BIS\protected\controllers\SiteController.php(129): CController->render('temp_dashboard_...')
+#10 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionDashboard()
+#11 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('dashboard')
+#15 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/dashboard')
+#16 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#17 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/BIS/site/dashboard
+---
+2013/06/09 08:12:15 [error] [exception.CException] exception 'CException' with message 'Property "TbMenu.fixed" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('fixed', 'bottom')
+#1 C:\wamp\www\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\wamp\www\BIS\protected\extensions\bootstrap\widgets\TbNavbar.php(155): CBaseController->widget('bootstrap.widge...', Array)
+#4 C:\wamp\www\yii\framework\web\CBaseController.php(173): TbNavbar->run()
+#5 C:\wamp\www\BIS\themes\bootstrap\views\layouts\dashboard.php(33): CBaseController->widget('bootstrap.widge...', Array)
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\BIS...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\BIS...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\BIS...', Array, true)
+#9 C:\wamp\www\BIS\protected\controllers\SiteController.php(129): CController->render('temp_dashboard_...')
+#10 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionDashboard()
+#11 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('dashboard')
+#15 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/dashboard')
+#16 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#17 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/BIS/site/dashboard
+---
+2013/06/09 08:24:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/chart/distribution_population".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/chart/dist...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/user/chart/distribution_population
+HTTP_REFERER=http://localhost:8080/BIS/site/dashboard
+---
+2013/06/09 08:49:50 [error] [exception.CException] exception 'CException' with message 'ChartController cannot find the requested view "population_growth".' in C:\wamp\www\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('population_grow...', NULL, true)
+#1 C:\wamp\www\BIS\protected\modules\residents\controllers\ChartController.php(22): CController->render('population_grow...')
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ChartController->actionPopulation_Growth()
+#3 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('population_grow...')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('residents/chart...')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/BIS/residents/chart/population_growth
+---
+2013/06/09 08:51:11 [error] [exception.CException] exception 'CException' with message 'ChartController cannot find the requested view "residents/population_growth".' in C:\wamp\www\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('residents/popul...', NULL, true)
+#1 C:\wamp\www\BIS\protected\modules\residents\controllers\ChartController.php(22): CController->render('residents/popul...')
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ChartController->actionPopulation_Growth()
+#3 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('population_grow...')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('residents/chart...')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/BIS/residents/chart/population_growth
+---
+2013/06/09 08:51:18 [error] [exception.CException] exception 'CException' with message 'ChartController cannot find the requested view "chart/population_growth".' in C:\wamp\www\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('chart/populatio...', NULL, true)
+#1 C:\wamp\www\BIS\protected\modules\residents\controllers\ChartController.php(22): CController->render('chart/populatio...')
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ChartController->actionPopulation_Growth()
+#3 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('population_grow...')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('residents/chart...')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/BIS/residents/chart/population_growth
+---
+2013/06/09 08:52:23 [error] [exception.CException] exception 'CException' with message 'ChartController cannot find the requested view "populationGrowth".' in C:\wamp\www\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('populationGrowt...', NULL, true)
+#1 C:\wamp\www\BIS\protected\modules\residents\controllers\ChartController.php(22): CController->render('populationGrowt...')
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ChartController->actionPopulation_Growth()
+#3 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('population_grow...')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('residents/chart...')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/BIS/residents/chart/population_growth
+---
+2013/06/09 08:52:30 [error] [exception.CException] exception 'CException' with message 'ChartController cannot find the requested view "//populationGrowth".' in C:\wamp\www\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('//populationGro...', NULL, true)
+#1 C:\wamp\www\BIS\protected\modules\residents\controllers\ChartController.php(22): CController->render('//populationGro...')
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ChartController->actionPopulation_Growth()
+#3 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('population_grow...')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('residents/chart...')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/BIS/residents/chart/population_growth
+---
+2013/06/09 08:52:34 [error] [exception.CException] exception 'CException' with message 'ChartController cannot find the requested view "../populationGrowth".' in C:\wamp\www\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('../populationGr...', NULL, true)
+#1 C:\wamp\www\BIS\protected\modules\residents\controllers\ChartController.php(22): CController->render('../populationGr...')
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ChartController->actionPopulation_Growth()
+#3 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('population_grow...')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('residents/chart...')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/BIS/residents/chart/population_growth
+---
+2013/06/09 08:52:45 [error] [exception.CException] exception 'CException' with message 'ChartController cannot find the requested view "../populationGrowth".' in C:\wamp\www\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('../populationGr...', NULL, true)
+#1 C:\wamp\www\BIS\protected\modules\residents\controllers\ChartController.php(23): CController->render('../populationGr...')
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ChartController->actionPopulation_Growth()
+#3 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('population_grow...')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('residents/chart...')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/BIS/residents/chart/population_growth
+---
+2013/06/09 08:53:46 [error] [exception.CException] exception 'CException' with message 'ChartController cannot find the requested view "index".' in C:\wamp\www\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#1 C:\wamp\www\BIS\protected\modules\residents\controllers\ChartController.php(22): CController->render('index')
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ChartController->actionPopulation_Growth()
+#3 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('population_grow...')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('residents/chart...')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/BIS/residents/chart/population_growth
+---
+2013/06/09 09:18:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dashboard".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/dashboard
+---
+2013/06/09 09:19:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dashboard".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/dashboard
+---
+2013/06/09 09:19:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dashboard".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/dashboard
+---
+2013/06/09 09:19:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dashboards".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboards')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/dashboards
+---
+2013/06/09 09:19:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dashboard".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/dashboard
+---
+2013/06/09 09:19:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "register".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('register')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/register
+---
+2013/06/09 09:20:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "test".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/test
+---
+2013/06/09 09:22:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dashboard".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/dashboard
+---
+2013/06/09 09:24:59 [error] [exception.CException] exception 'CException' with message 'ChartController cannot find the requested view "populationGrowth".' in C:\wamp\www\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('populationGrowt...', NULL, true)
+#1 C:\wamp\www\BIS\protected\modules\residents\controllers\ChartController.php(20): CController->render('populationGrowt...')
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ChartController->actionPopulation_Growth()
+#3 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('population_grow...')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('residents/chart...')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/BIS/residents/chart/population_growth
+---
+2013/06/09 09:25:08 [error] [exception.CException] exception 'CException' with message 'ChartController cannot find the requested view "populationGrowth".' in C:\wamp\www\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('populationGrowt...', NULL, true)
+#1 C:\wamp\www\BIS\protected\modules\residents\controllers\ChartController.php(20): CController->render('populationGrowt...')
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ChartController->actionPopulation_Growth()
+#3 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('population_grow...')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('residents/chart...')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/BIS/residents/chart/population_growth
+---
+2013/06/09 09:27:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "residents/charts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('residents/chart...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/residents/charts
+---
+2013/06/09 09:28:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dashboard".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/dashboard
+---
+2013/06/09 09:36:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "residents/residents/chart/population_by_year".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('residents/resid...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/residents/residents/chart/population_by_year
+HTTP_REFERER=http://localhost:8080/BIS/residents/chart/population_growth
+---
+2013/06/09 09:39:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "residents/residents/chart/population_by_year".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('residents/resid...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/residents/residents/chart/population_by_year
+HTTP_REFERER=http://localhost:8080/BIS/residents/chart/population_growth
+---
+2013/06/09 09:40:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "residents/residents/chart/population_by_year".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('residents/resid...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/residents/residents/chart/population_by_year
+HTTP_REFERER=http://localhost:8080/BIS/residents/chart/population_growth
+---
+2013/06/09 09:41:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "residents/residents/chart/population_by_year".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('residents/resid...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/residents/residents/chart/population_by_year
+HTTP_REFERER=http://localhost:8080/BIS/residents/chart/population_growth
+---
+2013/06/09 09:41:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "residents/residents/chart/distribution_population".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('residents/resid...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/residents/residents/chart/distribution_population
+HTTP_REFERER=http://localhost:8080/BIS/residents/chart/population_growth
+---
+2013/06/09 09:41:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "residents/residents/chart".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('residents/resid...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/residents/residents/chart/
+---
+2013/06/09 09:41:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "residents/residents".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('residents/resid...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/residents/residents/
+---
+2013/06/09 09:42:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "residents/residents/chart/population_by_year".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('residents/resid...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/residents/residents/chart/population_by_year
+HTTP_REFERER=http://localhost:8080/BIS/residents/chart/population_growth
+---
+2013/06/09 09:42:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "residents/residents/chart/population_growth".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('residents/resid...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/residents/residents/chart/population_growth
+HTTP_REFERER=http://localhost:8080/BIS/residents/chart/population_growth
+---
+2013/06/09 09:43:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "residents/residents/chart/population_by_year".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('residents/resid...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/residents/residents/chart/population_by_year
+---
+2013/06/09 09:43:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "chart/population_growth".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('chart/populatio...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/chart/population_growth
+HTTP_REFERER=http://localhost:8080/BIS/site/dashboard
+---
+2013/06/09 09:43:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "chart/population_growth".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('chart/populatio...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/chart/population_growth
+---
+2013/06/09 09:43:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "chart/population_growth".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('chart/populatio...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/chart/population_growth
+---
+2013/06/09 09:46:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "residents/residents/chart/population_by_year".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('residents/resid...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/residents/residents/chart/population_by_year
+---
+2013/06/09 09:47:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "chart/population_growth".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('chart/populatio...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/chart/population_growth
+HTTP_REFERER=http://localhost:8080/BIS/site/dashboard
+---
+2013/06/09 09:50:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "chart/population_growth".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('chart/populatio...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/chart/population_growth
+HTTP_REFERER=http://localhost:8080/BIS/site/dashboard
+---
+2013/06/09 09:50:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "chart/population_growth".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('chart/populatio...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/chart/population_growth
+HTTP_REFERER=http://localhost:8080/BIS/site/dashboard
+---
+2013/06/09 09:55:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "chart/population_by_year".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('chart/populatio...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/chart/population_by_year
+HTTP_REFERER=http://localhost:8080/BIS/site/dashboard
+---
+2013/06/09 09:55:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "chart/population_by_year".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('chart/populatio...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/chart/population_by_year
+HTTP_REFERER=http://localhost:8080/BIS/site/dashboard
+---
+2013/06/09 10:02:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "residents".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('residents')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('residents')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/residents')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/BIS/site/residents
+HTTP_REFERER=http://localhost:8080/BIS/site/dashboard
+---
+2013/06/09 10:02:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "users".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('users')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('users')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/users')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/BIS/site/users
+HTTP_REFERER=http://localhost:8080/BIS/site/dashboard
+---
+2013/06/09 10:02:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "chart/population_by_year".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('chart/populatio...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/chart/population_by_year
+HTTP_REFERER=http://localhost:8080/BIS/site/dashboard
+---
+2013/06/09 10:02:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "residents".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('residents')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('residents')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/residents')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/BIS/site/residents
+HTTP_REFERER=http://localhost:8080/BIS/site/dashboard
+---
+2013/06/09 10:02:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "chart/population_by_year".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('chart/populatio...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/chart/population_by_year
+HTTP_REFERER=http://localhost:8080/BIS/site/dashboard
+---
+2013/06/09 11:58:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "residents".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('residents')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('residents')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('residents/chart...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/BIS/residents/chart/residents
+HTTP_REFERER=http://localhost:8080/BIS/residents/chart/distribution_population
+---
+2013/06/09 12:25:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "residents".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('residents')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('residents')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('residents/chart...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/BIS/residents/chart/residents
+HTTP_REFERER=http://localhost:8080/BIS/residents/chart/population_growth
+---
+2013/06/09 12:27:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "residents".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('residents')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('residents')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('residents/chart...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/BIS/residents/chart/residents
+HTTP_REFERER=http://localhost:8080/BIS/residents/chart/population_growth
+---
+2013/06/09 12:28:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "users".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/users
+HTTP_REFERER=http://localhost:8080/BIS/residents/chart/population_growth
+---
+2013/06/09 12:28:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "users/users".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/users')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/users/users
+---
+2013/06/09 12:28:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "users".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/users
+HTTP_REFERER=http://localhost:8080/BIS/residents/chart/population_growth
+---
+2013/06/09 12:47:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "residents/charts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('residents/chart...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/residents/charts
+HTTP_REFERER=http://localhost:8080/BIS/residents/chart/population_by_year
+---
+2013/06/09 12:48:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "residents/charts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('residents/chart...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/residents/charts
+HTTP_REFERER=http://localhost:8080/BIS/residents/chart/population_by_year
+---
+2013/06/09 12:48:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "residents/charts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('residents/chart...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/residents/charts
+HTTP_REFERER=http://localhost:8080/BIS/residents/chart/population_by_year
+---
+2013/06/09 12:48:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "residents/charts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('residents/chart...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/residents/charts
+---
+2013/06/09 12:48:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "residents/charts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('residents/chart...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/residents/charts/
+---
+2013/06/09 12:48:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "residents/charts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('residents/chart...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/residents/charts
+---
+2013/06/09 12:48:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "residents/charts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('residents/chart...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/residents/charts
+---
+2013/06/09 12:55:57 [error] [php] Undefined variable: example (C:\wamp\www\BIS\themes\bootstrap\views\layouts\dashboard.php:21)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(784): DefaultController->renderFile()
+#1 C:\wamp\www\BIS\protected\modules\residents\controllers\DefaultController.php(9): DefaultController->render()
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#3 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\wamp\www\yii\framework\web\CController.php(286): DefaultController->runAction()
+#5 C:\wamp\www\yii\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(282): DefaultController->run()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\BIS\index.php(13): CWebApplication->run()
+REQUEST_URI=/BIS/residents
+in C:\wamp\www\BIS\themes\bootstrap\views\layouts\dashboard.php (21)
+in C:\wamp\www\BIS\protected\modules\residents\controllers\DefaultController.php (9)
+in C:\wamp\www\BIS\index.php (13)
+2013/06/09 13:05:17 [error] [php] Undefined variable: selected_menu (C:\wamp\www\BIS\themes\bootstrap\views\layouts\dashboard.php:19)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(784): DefaultController->renderFile()
+#1 C:\wamp\www\BIS\protected\modules\residents\controllers\DefaultController.php(9): DefaultController->render()
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#3 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\wamp\www\yii\framework\web\CController.php(286): DefaultController->runAction()
+#5 C:\wamp\www\yii\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(282): DefaultController->run()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\BIS\index.php(13): CWebApplication->run()
+REQUEST_URI=/BIS/residents
+in C:\wamp\www\BIS\themes\bootstrap\views\layouts\dashboard.php (19)
+in C:\wamp\www\BIS\protected\modules\residents\controllers\DefaultController.php (9)
+in C:\wamp\www\BIS\index.php (13)
+2013/06/09 13:43:29 [error] [php] Undefined variable: selected_menu (C:\wamp\www\BIS\themes\bootstrap\views\layouts\dashboard.php:6)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(784): ChartController->renderFile()
+#1 C:\wamp\www\BIS\protected\modules\residents\controllers\ChartController.php(20): ChartController->render()
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ChartController->actionPopulation_By_Year()
+#3 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\wamp\www\yii\framework\web\CController.php(286): ChartController->runAction()
+#5 C:\wamp\www\yii\framework\web\CController.php(265): ChartController->runActionWithFilters()
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(282): ChartController->run()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\BIS\index.php(13): CWebApplication->run()
+REQUEST_URI=/BIS/residents/chart/population_by_year
+in C:\wamp\www\BIS\themes\bootstrap\views\layouts\dashboard.php (6)
+in C:\wamp\www\BIS\protected\modules\residents\controllers\ChartController.php (20)
+in C:\wamp\www\BIS\index.php (13)
+2013/06/09 13:44:16 [error] [php] Undefined variable: selected_menu (C:\wamp\www\BIS\themes\bootstrap\views\layouts\dashboard.php:4)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(784): ChartController->renderFile()
+#1 C:\wamp\www\BIS\protected\modules\residents\controllers\ChartController.php(21): ChartController->render()
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ChartController->actionPopulation_By_Year()
+#3 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\wamp\www\yii\framework\web\CController.php(286): ChartController->runAction()
+#5 C:\wamp\www\yii\framework\web\CController.php(265): ChartController->runActionWithFilters()
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(282): ChartController->run()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\BIS\index.php(13): CWebApplication->run()
+REQUEST_URI=/BIS/residents/chart/population_by_year
+in C:\wamp\www\BIS\themes\bootstrap\views\layouts\dashboard.php (4)
+in C:\wamp\www\BIS\protected\modules\residents\controllers\ChartController.php (21)
+in C:\wamp\www\BIS\index.php (13)
+2013/06/09 13:44:49 [error] [php] Undefined variable: selected_menu (C:\wamp\www\BIS\themes\bootstrap\views\layouts\dashboard.php:4)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(784): ChartController->renderFile()
+#1 C:\wamp\www\BIS\protected\modules\residents\controllers\ChartController.php(21): ChartController->render()
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ChartController->actionPopulation_By_Year()
+#3 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\wamp\www\yii\framework\web\CController.php(286): ChartController->runAction()
+#5 C:\wamp\www\yii\framework\web\CController.php(265): ChartController->runActionWithFilters()
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(282): ChartController->run()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\BIS\index.php(13): CWebApplication->run()
+REQUEST_URI=/BIS/residents/chart/population_by_year
+in C:\wamp\www\BIS\themes\bootstrap\views\layouts\dashboard.php (4)
+in C:\wamp\www\BIS\protected\modules\residents\controllers\ChartController.php (21)
+in C:\wamp\www\BIS\index.php (13)
+2013/06/09 13:47:58 [error] [exception.CException] exception 'CException' with message 'Property "ChartController.selected_menu" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\BIS\protected\modules\residents\controllers\ChartController.php(20): CComponent->__set('selected_menu', 'Population by Y...')
+#1 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ChartController->actionPopulation_By_Year()
+#2 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('population_by_y...')
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('residents/chart...')
+#7 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/BIS/residents/chart/population_by_year
+---
+2013/06/09 13:48:20 [error] [php] Undefined variable: selected_menu (C:\wamp\www\BIS\themes\bootstrap\views\layouts\dashboard.php:4)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(784): ChartController->renderFile()
+#1 C:\wamp\www\BIS\protected\modules\residents\controllers\ChartController.php(22): ChartController->render()
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ChartController->actionPopulation_By_Year()
+#3 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\wamp\www\yii\framework\web\CController.php(286): ChartController->runAction()
+#5 C:\wamp\www\yii\framework\web\CController.php(265): ChartController->runActionWithFilters()
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(282): ChartController->run()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\BIS\index.php(13): CWebApplication->run()
+REQUEST_URI=/BIS/residents/chart/population_by_year
+in C:\wamp\www\BIS\themes\bootstrap\views\layouts\dashboard.php (4)
+in C:\wamp\www\BIS\protected\modules\residents\controllers\ChartController.php (22)
+in C:\wamp\www\BIS\index.php (13)
+2013/06/09 13:52:05 [error] [exception.CException] exception 'CException' with message 'Property "DefaultController.selected_menu" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\BIS\protected\modules\residents\controllers\DefaultController.php(8): CComponent->__set('selected_menu', 'Residents')
+#1 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#2 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('residents')
+#7 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/BIS/residents
+HTTP_REFERER=http://localhost:8080/BIS/residents/chart/population_growth
+---
+2013/06/09 13:55:06 [error] [exception.CException] exception 'CException' with message 'Property "DefaultController.selected_menu" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\BIS\protected\modules\residents\controllers\DefaultController.php(9): CComponent->__set('selected_menu', 'Residents')
+#1 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#2 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('residents')
+#7 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/BIS/residents
+---
+2013/06/09 13:55:24 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "controller".' in C:\wamp\www\yii\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\wamp\www\BIS\themes\bootstrap\views\layouts\dashboard.php(7): CComponent->__call('controller', Array)
+#1 C:\wamp\www\BIS\themes\bootstrap\views\layouts\dashboard.php(7): CWebApplication->controller()
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\BIS...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\BIS...', Array, true)
+#4 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\BIS...', Array, true)
+#5 C:\wamp\www\BIS\protected\modules\residents\controllers\DefaultController.php(10): CController->render('index')
+#6 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#7 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#11 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('residents')
+#12 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/BIS/residents
+---
+2013/06/09 13:55:50 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "controller".' in C:\wamp\www\yii\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\wamp\www\BIS\themes\bootstrap\views\layouts\dashboard.php(7): CComponent->__call('controller', Array)
+#1 C:\wamp\www\BIS\themes\bootstrap\views\layouts\dashboard.php(7): CWebApplication->controller()
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\BIS...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\BIS...', Array, true)
+#4 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\BIS...', Array, true)
+#5 C:\wamp\www\BIS\protected\modules\residents\controllers\DefaultController.php(10): CController->render('index')
+#6 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#7 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#11 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('residents')
+#12 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/BIS/residents
+---
+2013/06/09 13:57:06 [error] [exception.CException] exception 'CException' with message 'Property "SiteController.selected_menu" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\BIS\themes\bootstrap\views\layouts\dashboard.php(9): CComponent->__get('selected_menu')
+#1 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\BIS...')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\BIS...', Array, true)
+#3 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\BIS...', Array, true)
+#4 C:\wamp\www\BIS\protected\controllers\SiteController.php(130): CController->render('default_dashboa...')
+#5 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionDashboard()
+#6 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('dashboard')
+#10 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/dashboard')
+#11 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/BIS/site/dashboard
+---
+2013/06/09 14:13:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "users".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/users
+HTTP_REFERER=http://localhost:8080/BIS/residents
+---
+2013/06/09 14:15:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "users".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/users
+HTTP_REFERER=http://localhost:8080/BIS/residents
+---
+2013/06/09 14:15:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "users".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/users
+---
+2013/06/09 14:17:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "residents".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('residents')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/residents
+---
+2013/06/09 14:17:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "residents".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('residents')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/residents
+---
+2013/06/09 14:19:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "users".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/users
+HTTP_REFERER=http://localhost:8080/BIS/residents
+---
+2013/06/09 14:19:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "users".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/users
+HTTP_REFERER=http://localhost:8080/BIS/residents/chart/distribution_population
+---
+2013/06/09 14:25:45 [error] [php] Undefined variable: selected_menu (C:\wamp\www\BIS\themes\bootstrap\views\layouts\dashboard.php:3)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(784): ChartController->renderFile()
+#1 C:\wamp\www\BIS\protected\modules\residents\controllers\ChartController.php(23): ChartController->render()
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ChartController->actionPopulation_By_Year()
+#3 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\wamp\www\yii\framework\web\CController.php(286): ChartController->runAction()
+#5 C:\wamp\www\yii\framework\web\CController.php(265): ChartController->runActionWithFilters()
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(282): ChartController->run()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\BIS\index.php(13): CWebApplication->run()
+REQUEST_URI=/BIS/residents/chart/population_by_year
+in C:\wamp\www\BIS\themes\bootstrap\views\layouts\dashboard.php (3)
+in C:\wamp\www\BIS\protected\modules\residents\controllers\ChartController.php (23)
+in C:\wamp\www\BIS\index.php (13)
+2013/06/09 14:35:59 [error] [php] Undefined variable: selected_menu (C:\wamp\www\BIS\themes\bootstrap\views\layouts\dashboard.php:3)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(784): ChartController->renderFile()
+#1 C:\wamp\www\BIS\protected\modules\residents\controllers\ChartController.php(23): ChartController->render()
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ChartController->actionPopulation_By_Year()
+#3 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\wamp\www\yii\framework\web\CController.php(286): ChartController->runAction()
+#5 C:\wamp\www\yii\framework\web\CController.php(265): ChartController->runActionWithFilters()
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(282): ChartController->run()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\BIS\index.php(13): CWebApplication->run()
+REQUEST_URI=/BIS/residents/chart/population_by_year
+in C:\wamp\www\BIS\themes\bootstrap\views\layouts\dashboard.php (3)
+in C:\wamp\www\BIS\protected\modules\residents\controllers\ChartController.php (23)
+in C:\wamp\www\BIS\index.php (13)
+2013/06/09 14:59:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "users".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS/users
+HTTP_REFERER=http://localhost:8080/BIS/residents
+---
+2013/06/09 14:59:34 [error] [exception.CException] exception 'CException' with message 'Property "ChartController.selected_menu" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\BIS\protected\modules\residents\controllers\ChartController.php(16): CComponent->__set('selected_menu', 'Population Grow...')
+#1 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ChartController->actionPopulation_Growth()
+#2 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('population_grow...')
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('residents/chart...')
+#7 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\wamp\www\BIS\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/BIS/residents/chart/population_growth
+HTTP_REFERER=http://localhost:8080/BIS/residents
+---

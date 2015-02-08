@@ -1,0 +1,136 @@
+2013/05/26 17:07:34 [error] [exception.CException] exception 'CException' with message 'Property "DashboardController.layouts" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\BIS-Yii\protected\views\dashboard\index.php(5): CComponent->__set('layouts', 'dashboard')
+#1 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\BIS...')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\BIS...', NULL, true)
+#3 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\BIS...', NULL, true)
+#4 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#5 C:\wamp\www\BIS-Yii\protected\controllers\DashboardController.php(7): CController->render('index')
+#6 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): DashboardController->actionIndex()
+#7 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#11 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard')
+#12 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\wamp\www\BIS-Yii\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/BIS-Yii/dashboard
+---
+2013/05/26 17:33:52 [error] [php] Object of class CTheme could not be converted to string (C:\wamp\www\BIS-Yii\themes\custom\views\layouts\dashboard.php:21)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(784): DashboardController->renderFile()
+#1 C:\wamp\www\BIS-Yii\protected\controllers\DashboardController.php(8): DashboardController->render()
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): DashboardController->actionIndex()
+#3 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\wamp\www\yii\framework\web\CController.php(286): DashboardController->runAction()
+#5 C:\wamp\www\yii\framework\web\CController.php(265): DashboardController->runActionWithFilters()
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(282): DashboardController->run()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\BIS-Yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/BIS-Yii/dashboard
+in C:\wamp\www\BIS-Yii\themes\custom\views\layouts\dashboard.php (21)
+in C:\wamp\www\BIS-Yii\protected\controllers\DashboardController.php (8)
+in C:\wamp\www\BIS-Yii\index.php (13)
+2013/05/26 17:34:00 [error] [php] Object of class CTheme could not be converted to string (C:\wamp\www\BIS-Yii\themes\custom\views\layouts\dashboard.php:21)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(784): DashboardController->renderFile()
+#1 C:\wamp\www\BIS-Yii\protected\controllers\DashboardController.php(8): DashboardController->render()
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): DashboardController->actionIndex()
+#3 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\wamp\www\yii\framework\web\CController.php(286): DashboardController->runAction()
+#5 C:\wamp\www\yii\framework\web\CController.php(265): DashboardController->runActionWithFilters()
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(282): DashboardController->run()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\BIS-Yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/BIS-Yii/dashboard
+in C:\wamp\www\BIS-Yii\themes\custom\views\layouts\dashboard.php (21)
+in C:\wamp\www\BIS-Yii\protected\controllers\DashboardController.php (8)
+in C:\wamp\www\BIS-Yii\index.php (13)
+2013/05/26 17:34:45 [error] [php] Object of class CTheme could not be converted to string (C:\wamp\www\BIS-Yii\themes\custom\views\layouts\dashboard.php:21)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(784): DashboardController->renderFile()
+#1 C:\wamp\www\BIS-Yii\protected\controllers\DashboardController.php(8): DashboardController->render()
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): DashboardController->actionIndex()
+#3 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\wamp\www\yii\framework\web\CController.php(286): DashboardController->runAction()
+#5 C:\wamp\www\yii\framework\web\CController.php(265): DashboardController->runActionWithFilters()
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(282): DashboardController->run()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\BIS-Yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/BIS-Yii/dashboard
+in C:\wamp\www\BIS-Yii\themes\custom\views\layouts\dashboard.php (21)
+in C:\wamp\www\BIS-Yii\protected\controllers\DashboardController.php (8)
+in C:\wamp\www\BIS-Yii\index.php (13)
+2013/05/26 17:41:57 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: 'k k ' for column 'height' at row 1. The SQL statement executed was: INSERT INTO `tbl_resident` (`surname`, `firstname`, `middlename`, `extension`, `dateOfBirth`, `birthplace`, `sex`, `civilStatus`, `citizenship`, `height`, `weight`, `bloodType`, `GSISID`, `PagibigNo`, `PhilHealthNo`, `ResTelephoneNo`, `houseHoldId`, `emailAddress`, `website`, `cellphone`, `TINNo`, `ElemGrad`, `HighSchoolGrad`, `CollegeGrad`, `CurrentStat`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, :yp11, :yp12, :yp13, :yp14, :yp15, :yp16, :yp17, :yp18, :yp19, :yp20, :yp21, :yp22, :yp23, :yp24).
+in C:\wamp\www\BIS-Yii\protected\controllers\ResidentController.php (73)
+in C:\wamp\www\BIS-Yii\index.php (13)
+2013/05/26 17:41:57 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: 'k k ' for column 'height' at row 1. The SQL statement executed was: INSERT INTO `tbl_resident` (`surname`, `firstname`, `middlename`, `extension`, `dateOfBirth`, `birthplace`, `sex`, `civilStatus`, `citizenship`, `height`, `weight`, `bloodType`, `GSISID`, `PagibigNo`, `PhilHealthNo`, `ResTelephoneNo`, `houseHoldId`, `emailAddress`, `website`, `cellphone`, `TINNo`, `ElemGrad`, `HighSchoolGrad`, `CollegeGrad`, `CurrentStat`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, :yp11, :yp12, :yp13, :yp14, :yp15, :yp16, :yp17, :yp18, :yp19, :yp20, :yp21, :yp22, :yp23, :yp24)' in C:\wamp\www\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1023): CDbCommand->execute()
+#1 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 C:\wamp\www\BIS-Yii\protected\controllers\ResidentController.php(73): CActiveRecord->save()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ResidentController->actionCreate()
+#4 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('resident/create')
+#14 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\wamp\www\BIS-Yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/BIS-Yii/index.php/resident/create
+HTTP_REFERER=http://localhost:8080/BIS-Yii/index.php/resident/create
+---
+2013/05/26 17:42:40 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('resident/admin')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wamp\www\BIS-Yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/BIS-Yii/index.php/resident/admin
+HTTP_REFERER=http://localhost:8080/BIS-Yii/resident
+---
+2013/05/26 17:42:55 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('resident/admin')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wamp\www\BIS-Yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/BIS-Yii/index.php/resident/admin
+HTTP_REFERER=http://localhost:8080/BIS-Yii/index.php/resident/create
+---
+2013/05/26 17:43:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('list')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('list')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('resident/list')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\BIS-Yii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/BIS-Yii/index.php/resident/list
+---

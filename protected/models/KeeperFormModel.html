@@ -1,0 +1,34 @@
+<?php
+
+class LoginForm extends CFormModel
+{
+	public $keeper_id;
+	public $keeper_name;
+	public $keeper_description;
+	public $keeper_birthday;
+
+
+	public function rules()
+	{
+		return array(
+			// username and password are required
+			array('username, password', 'required'),
+			// rememberMe needs to be a boolean
+			array('rememberMe', 'boolean'),
+			// password needs to be authenticated
+			array('password', 'authenticate'),
+			);
+	}
+
+	/**
+	 * Declares attribute labels.
+	 */
+	public function attributeLabels()
+	{
+		return array(
+			'rememberMe'=>'Remember me next time',
+			);
+	}
+
+
+}

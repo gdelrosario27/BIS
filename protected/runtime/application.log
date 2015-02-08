@@ -1,0 +1,893 @@
+2013/05/26 16:09:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "residnt".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('residnt')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\BIS-Yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/BIS-Yii/residnt
+---
+2013/05/26 16:13:15 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '12-12-2012' for column 'dateOfBirth' at row 1. The SQL statement executed was: INSERT INTO `tbl_resident` (`surname`, `firstname`, `middlename`, `extension`, `dateOfBirth`, `birthplace`, `sex`, `civilStatus`, `citizenship`, `height`, `weight`, `bloodType`, `GSISID`, `PagibigNo`, `PhilHealthNo`, `ResTelephoneNo`, `houseHoldId`, `emailAddress`, `website`, `cellphone`, `TINNo`, `ElemGrad`, `HighSchoolGrad`, `CollegeGrad`, `CurrentStat`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, :yp11, :yp12, :yp13, :yp14, :yp15, :yp16, :yp17, :yp18, :yp19, :yp20, :yp21, :yp22, :yp23, :yp24).
+in C:\wamp\www\BIS-Yii\protected\controllers\ResidentController.php (73)
+in C:\wamp\www\BIS-Yii\index.php (13)
+2013/05/26 16:13:15 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '12-12-2012' for column 'dateOfBirth' at row 1. The SQL statement executed was: INSERT INTO `tbl_resident` (`surname`, `firstname`, `middlename`, `extension`, `dateOfBirth`, `birthplace`, `sex`, `civilStatus`, `citizenship`, `height`, `weight`, `bloodType`, `GSISID`, `PagibigNo`, `PhilHealthNo`, `ResTelephoneNo`, `houseHoldId`, `emailAddress`, `website`, `cellphone`, `TINNo`, `ElemGrad`, `HighSchoolGrad`, `CollegeGrad`, `CurrentStat`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, :yp11, :yp12, :yp13, :yp14, :yp15, :yp16, :yp17, :yp18, :yp19, :yp20, :yp21, :yp22, :yp23, :yp24)' in C:\wamp\www\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1023): CDbCommand->execute()
+#1 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 C:\wamp\www\BIS-Yii\protected\controllers\ResidentController.php(73): CActiveRecord->save()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ResidentController->actionCreate()
+#4 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('resident/create')
+#14 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\wamp\www\BIS-Yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/BIS-Yii/index.php/resident/create
+HTTP_REFERER=http://localhost:8080/BIS-Yii/index.php/resident/create
+---
+2013/05/28 19:19:00 [error] [system.db.CDbCommand] Error in preparing SQL: CREATE TABLE 'tbl_user' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"username" varchar(255) NOT NULL,
+	"password" varchar(255) NOT NULL,
+	"email" varchar(255) NOT NULL
+)
+2013/05/28 19:19:00 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 table 'tbl_user' already exists. The SQL statement executed was: CREATE TABLE 'tbl_user' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"username" varchar(255) NOT NULL,
+	"password" varchar(255) NOT NULL,
+	"email" varchar(255) NOT NULL
+).
+2013/05/28 19:19:00 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 table 'tbl_user' already exists. The SQL statement executed was: CREATE TABLE 'tbl_user' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"username" varchar(255) NOT NULL,
+	"password" varchar(255) NOT NULL,
+	"email" varchar(255) NOT NULL
+)' in C:\wamp\www\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(1321): CDbCommand->execute()
+#1 C:\wamp\www\yii\framework\db\CDbMigration.php(228): CDbCommand->createTable('tbl_user', Array, NULL)
+#2 C:\wamp\www\BIS\protected\migrations\m130527_190139_create_user_table.php(13): CDbMigration->createTable('tbl_user', Array)
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(385): m130527_190139_create_user_table->up()
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(109): MigrateCommand->migrateUp('m130527_190139_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#10 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#12 {main}
+---
+2013/05/28 19:19:20 [error] [system.db.CDbCommand] Error in preparing SQL: CREATE TABLE 'tbl_user' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"username" varchar(255) NOT NULL,
+	"password" varchar(255) NOT NULL,
+	"email" varchar(255) NOT NULL
+)
+2013/05/28 19:19:20 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 table 'tbl_user' already exists. The SQL statement executed was: CREATE TABLE 'tbl_user' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"username" varchar(255) NOT NULL,
+	"password" varchar(255) NOT NULL,
+	"email" varchar(255) NOT NULL
+).
+2013/05/28 19:19:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 table 'tbl_user' already exists. The SQL statement executed was: CREATE TABLE 'tbl_user' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"username" varchar(255) NOT NULL,
+	"password" varchar(255) NOT NULL,
+	"email" varchar(255) NOT NULL
+)' in C:\wamp\www\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(1321): CDbCommand->execute()
+#1 C:\wamp\www\yii\framework\db\CDbMigration.php(228): CDbCommand->createTable('tbl_user', Array, NULL)
+#2 C:\wamp\www\BIS\protected\migrations\m130527_190139_create_user_table.php(13): CDbMigration->createTable('tbl_user', Array)
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(385): m130527_190139_create_user_table->up()
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(109): MigrateCommand->migrateUp('m130527_190139_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#10 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#12 {main}
+---
+2013/05/28 19:19:33 [error] [system.db.CDbCommand] Error in preparing SQL: CREATE TABLE 'tbl_user' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"username" varchar(255) NOT NULL,
+	"password" varchar(255) NOT NULL,
+	"email" varchar(255) NOT NULL
+)
+2013/05/28 19:19:33 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 table 'tbl_user' already exists. The SQL statement executed was: CREATE TABLE 'tbl_user' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"username" varchar(255) NOT NULL,
+	"password" varchar(255) NOT NULL,
+	"email" varchar(255) NOT NULL
+).
+2013/05/28 19:19:33 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 table 'tbl_user' already exists. The SQL statement executed was: CREATE TABLE 'tbl_user' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"username" varchar(255) NOT NULL,
+	"password" varchar(255) NOT NULL,
+	"email" varchar(255) NOT NULL
+)' in C:\wamp\www\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(1321): CDbCommand->execute()
+#1 C:\wamp\www\yii\framework\db\CDbMigration.php(228): CDbCommand->createTable('tbl_user', Array, NULL)
+#2 C:\wamp\www\BIS\protected\migrations\m130527_190139_create_user_table.php(13): CDbMigration->createTable('tbl_user', Array)
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(385): m130527_190139_create_user_table->up()
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(109): MigrateCommand->migrateUp('m130527_190139_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#10 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#12 {main}
+---
+2013/06/01 12:07:23 [error] [system.db.CDbCommand] Error in preparing SQL: CREATE TABLE 'tbl_user' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"username" varchar(255) NOT NULL,
+	"password" varchar(255) NOT NULL,
+	"email" varchar(255) NOT NULL
+)
+2013/06/01 12:07:23 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 table 'tbl_user' already exists. The SQL statement executed was: CREATE TABLE 'tbl_user' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"username" varchar(255) NOT NULL,
+	"password" varchar(255) NOT NULL,
+	"email" varchar(255) NOT NULL
+).
+2013/06/01 12:07:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 table 'tbl_user' already exists. The SQL statement executed was: CREATE TABLE 'tbl_user' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"username" varchar(255) NOT NULL,
+	"password" varchar(255) NOT NULL,
+	"email" varchar(255) NOT NULL
+)' in C:\wamp\www\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(1321): CDbCommand->execute()
+#1 C:\wamp\www\yii\framework\db\CDbMigration.php(228): CDbCommand->createTable('tbl_user', Array, NULL)
+#2 C:\wamp\www\BIS\protected\migrations\m130527_190139_create_user_table.php(13): CDbMigration->createTable('tbl_user', Array)
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(385): m130527_190139_create_user_table->up()
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(109): MigrateCommand->migrateUp('m130527_190139_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#10 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#12 {main}
+---
+2013/06/01 12:07:52 [error] [system.db.CDbCommand] Error in preparing SQL: CREATE TABLE 'tbl_user' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"username" varchar(255) 20 NOT NULL,
+	"password" varchar(255) NOT NULL,
+	"email" varchar(255) NOT NULL
+)
+2013/06/01 12:07:52 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 table 'tbl_user' already exists. The SQL statement executed was: CREATE TABLE 'tbl_user' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"username" varchar(255) 20 NOT NULL,
+	"password" varchar(255) NOT NULL,
+	"email" varchar(255) NOT NULL
+).
+2013/06/01 12:07:52 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 table 'tbl_user' already exists. The SQL statement executed was: CREATE TABLE 'tbl_user' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"username" varchar(255) 20 NOT NULL,
+	"password" varchar(255) NOT NULL,
+	"email" varchar(255) NOT NULL
+)' in C:\wamp\www\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(1321): CDbCommand->execute()
+#1 C:\wamp\www\yii\framework\db\CDbMigration.php(228): CDbCommand->createTable('tbl_user', Array, NULL)
+#2 C:\wamp\www\BIS\protected\migrations\m130527_190139_create_user_table.php(13): CDbMigration->createTable('tbl_user', Array)
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(385): m130527_190139_create_user_table->up()
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(109): MigrateCommand->migrateUp('m130527_190139_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#10 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#12 {main}
+---
+2013/06/01 12:07:59 [error] [system.db.CDbCommand] Error in preparing SQL: CREATE TABLE 'tbl_user' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"username" string[20] NOT NULL,
+	"password" varchar(255) NOT NULL,
+	"email" varchar(255) NOT NULL
+)
+2013/06/01 12:07:59 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 table 'tbl_user' already exists. The SQL statement executed was: CREATE TABLE 'tbl_user' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"username" string[20] NOT NULL,
+	"password" varchar(255) NOT NULL,
+	"email" varchar(255) NOT NULL
+).
+2013/06/01 12:07:59 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 table 'tbl_user' already exists. The SQL statement executed was: CREATE TABLE 'tbl_user' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"username" string[20] NOT NULL,
+	"password" varchar(255) NOT NULL,
+	"email" varchar(255) NOT NULL
+)' in C:\wamp\www\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(1321): CDbCommand->execute()
+#1 C:\wamp\www\yii\framework\db\CDbMigration.php(228): CDbCommand->createTable('tbl_user', Array, NULL)
+#2 C:\wamp\www\BIS\protected\migrations\m130527_190139_create_user_table.php(13): CDbMigration->createTable('tbl_user', Array)
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(385): m130527_190139_create_user_table->up()
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(109): MigrateCommand->migrateUp('m130527_190139_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#10 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#12 {main}
+---
+2013/06/01 12:08:22 [error] [system.db.CDbCommand] Error in preparing SQL: CREATE TABLE 'tbl_user' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"username" string[100] NOT NULL,
+	"password" string[50] NOT NULL,
+	"email" string[50] NOT NULL
+)
+2013/06/01 12:08:22 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 table 'tbl_user' already exists. The SQL statement executed was: CREATE TABLE 'tbl_user' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"username" string[100] NOT NULL,
+	"password" string[50] NOT NULL,
+	"email" string[50] NOT NULL
+).
+2013/06/01 12:08:22 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 table 'tbl_user' already exists. The SQL statement executed was: CREATE TABLE 'tbl_user' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"username" string[100] NOT NULL,
+	"password" string[50] NOT NULL,
+	"email" string[50] NOT NULL
+)' in C:\wamp\www\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(1321): CDbCommand->execute()
+#1 C:\wamp\www\yii\framework\db\CDbMigration.php(228): CDbCommand->createTable('tbl_user', Array, NULL)
+#2 C:\wamp\www\BIS\protected\migrations\m130527_190139_create_user_table.php(13): CDbMigration->createTable('tbl_user', Array)
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(385): m130527_190139_create_user_table->up()
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(109): MigrateCommand->migrateUp('m130527_190139_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#10 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#12 {main}
+---
+2013/06/01 12:14:29 [error] [exception.CException] exception 'CException' with message 'm130527_190139_create_user_table and its behaviors do not have a method or closure named "deleteTable".' in C:\wamp\www\yii\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\wamp\www\BIS\protected\migrations\m130527_190139_create_user_table.php(7): CComponent->__call('deleteTable', Array)
+#1 C:\wamp\www\BIS\protected\migrations\m130527_190139_create_user_table.php(7): m130527_190139_create_user_table->deleteTable('tbl_user')
+#2 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(385): m130527_190139_create_user_table->up()
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(109): MigrateCommand->migrateUp('m130527_190139_...')
+#4 [internal function]: MigrateCommand->actionUp(Array)
+#5 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#6 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#7 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#8 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#9 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#10 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#11 {main}
+---
+2013/06/01 12:51:01 [info] [application] sample log message
+in C:\wamp\www\BIS\protected\controllers\TestController.php (44)
+in C:\wamp\www\BIS\index.php (13)
+2013/06/01 13:12:55 [error] [system.db.CDbCommand] Error in preparing SQL: CREATE TABLE 'tbl_user' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"username" string[128] NOT NULL,
+	"password" string[128] NOT NULL,
+	"email" string[128] NOT NULL
+)
+2013/06/01 13:12:55 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 table 'tbl_user' already exists. The SQL statement executed was: CREATE TABLE 'tbl_user' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"username" string[128] NOT NULL,
+	"password" string[128] NOT NULL,
+	"email" string[128] NOT NULL
+).
+2013/06/01 13:12:55 [error] [application] Failed Migrating
+2013/06/01 13:34:42 [error] [system.db.CDbCommand] Error in preparing SQL: CREATE TABLE 'tbl_user' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"username" string[130] NOT NULL,
+	"password" string[130] NOT NULL,
+	"email" string[130] NOT NULL
+)
+2013/06/01 13:34:42 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 table 'tbl_user' already exists. The SQL statement executed was: CREATE TABLE 'tbl_user' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"username" string[130] NOT NULL,
+	"password" string[130] NOT NULL,
+	"email" string[130] NOT NULL
+).
+2013/06/01 13:34:42 [error] [application] Failed Migrating : exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 table 'tbl_user' already exists. The SQL statement executed was: CREATE TABLE 'tbl_user' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"username" string[130] NOT NULL,
+	"password" string[130] NOT NULL,
+	"email" string[130] NOT NULL
+)' in C:\wamp\www\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(1321): CDbCommand->execute()
+#1 C:\wamp\www\yii\framework\db\CDbMigration.php(228): CDbCommand->createTable('tbl_user', Array, NULL)
+#2 C:\wamp\www\BIS\protected\migrations\m130601_133350_create_table_user.php(16): CDbMigration->createTable('tbl_user', Array)
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(385): m130601_133350_create_table_user->up()
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(109): MigrateCommand->migrateUp('m130601_133350_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#10 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#12 {main}
+2013/06/01 13:39:31 [error] [php] require_once(C:\wamp\www\BIS\protected\migrations\m130601_133350_create_table_user.php): failed to open stream: No such file or directory (C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php:428)
+Stack trace:
+#0 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(145): MigrateCommand->migrateDown()
+#1 unknown(0): MigrateCommand->actionDown()
+#2 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#3 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): MigrateCommand->run()
+#4 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run()
+#5 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#6 C:\wamp\www\yii\framework\yiic.php(33): CConsoleApplication->run()
+#7 C:\wamp\www\BIS\protected\yiic.php(7): require_once()
+
+2013/06/01 13:39:41 [error] [php] require_once(C:\wamp\www\BIS\protected\migrations\m130601_133350_create_table_user.php): failed to open stream: No such file or directory (C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php:428)
+Stack trace:
+#0 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(145): MigrateCommand->migrateDown()
+#1 unknown(0): MigrateCommand->actionDown()
+#2 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#3 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): MigrateCommand->run()
+#4 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run()
+#5 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#6 C:\wamp\www\yii\framework\yiic.php(33): CConsoleApplication->run()
+#7 C:\wamp\www\BIS\protected\yiic.php(7): require_once()
+
+2013/06/01 13:39:59 [error] [php] require_once(C:\wamp\www\BIS\protected\migrations\m130601_133350_create_table_user.php): failed to open stream: No such file or directory (C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php:428)
+Stack trace:
+#0 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(145): MigrateCommand->migrateDown()
+#1 unknown(0): MigrateCommand->actionDown()
+#2 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#3 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): MigrateCommand->run()
+#4 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run()
+#5 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#6 C:\wamp\www\yii\framework\yiic.php(33): CConsoleApplication->run()
+#7 C:\wamp\www\BIS\protected\yiic.php(7): require_once()
+
+2013/06/01 13:40:48 [error] [php] require_once(C:\wamp\www\BIS\protected\migrations\m130601_133350_create_table_user.php): failed to open stream: No such file or directory (C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php:428)
+Stack trace:
+#0 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(145): MigrateCommand->migrateDown()
+#1 unknown(0): MigrateCommand->actionDown()
+#2 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#3 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): MigrateCommand->run()
+#4 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run()
+#5 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#6 C:\wamp\www\yii\framework\yiic.php(33): CConsoleApplication->run()
+#7 C:\wamp\www\BIS\protected\yiic.php(7): require_once()
+
+2013/06/01 13:40:50 [error] [php] require_once(C:\wamp\www\BIS\protected\migrations\m130601_133350_create_table_user.php): failed to open stream: No such file or directory (C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php:428)
+Stack trace:
+#0 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(145): MigrateCommand->migrateDown()
+#1 unknown(0): MigrateCommand->actionDown()
+#2 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#3 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): MigrateCommand->run()
+#4 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run()
+#5 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#6 C:\wamp\www\yii\framework\yiic.php(33): CConsoleApplication->run()
+#7 C:\wamp\www\BIS\protected\yiic.php(7): require_once()
+
+2013/06/01 13:40:56 [error] [php] require_once(C:\wamp\www\BIS\protected\migrations\m130601_133350_create_table_user.php): failed to open stream: No such file or directory (C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php:428)
+Stack trace:
+#0 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(145): MigrateCommand->migrateDown()
+#1 unknown(0): MigrateCommand->actionDown()
+#2 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#3 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): MigrateCommand->run()
+#4 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run()
+#5 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#6 C:\wamp\www\yii\framework\yiic.php(33): CConsoleApplication->run()
+#7 C:\wamp\www\BIS\protected\yiic.php(7): require_once()
+
+2013/06/01 13:41:01 [error] [php] require_once(C:\wamp\www\BIS\protected\migrations\m130601_133350_create_table_user.php): failed to open stream: No such file or directory (C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php:428)
+Stack trace:
+#0 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(145): MigrateCommand->migrateDown()
+#1 unknown(0): MigrateCommand->actionDown()
+#2 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#3 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): MigrateCommand->run()
+#4 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run()
+#5 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#6 C:\wamp\www\yii\framework\yiic.php(33): CConsoleApplication->run()
+#7 C:\wamp\www\BIS\protected\yiic.php(7): require_once()
+
+2013/06/01 13:41:11 [error] [php] require_once(C:\wamp\www\BIS\protected\migrations\m130601_133350_create_table_user.php): failed to open stream: No such file or directory (C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php:428)
+Stack trace:
+#0 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(145): MigrateCommand->migrateDown()
+#1 unknown(0): MigrateCommand->actionDown()
+#2 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#3 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): MigrateCommand->run()
+#4 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run()
+#5 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#6 C:\wamp\www\yii\framework\yiic.php(33): CConsoleApplication->run()
+#7 C:\wamp\www\BIS\protected\yiic.php(7): require_once()
+
+2013/06/01 13:42:30 [error] [php] require_once(C:\wamp\www\BIS\protected\migrations\m130601_133350_create_table_user.php): failed to open stream: No such file or directory (C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php:428)
+Stack trace:
+#0 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(145): MigrateCommand->migrateDown()
+#1 unknown(0): MigrateCommand->actionDown()
+#2 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#3 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): MigrateCommand->run()
+#4 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run()
+#5 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#6 C:\wamp\www\yii\framework\yiic.php(33): CConsoleApplication->run()
+#7 C:\wamp\www\BIS\protected\yiic.php(7): require_once()
+
+2013/06/01 13:46:03 [error] [php] require_once(C:\wamp\www\BIS\protected\migrations\m130601_133350_create_table_user.php): failed to open stream: No such file or directory (C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php:428)
+Stack trace:
+#0 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(145): MigrateCommand->migrateDown()
+#1 unknown(0): MigrateCommand->actionDown()
+#2 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#3 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): MigrateCommand->run()
+#4 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run()
+#5 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#6 C:\wamp\www\yii\framework\yiic.php(33): CConsoleApplication->run()
+#7 C:\wamp\www\BIS\protected\yiic.php(7): require_once()
+
+2013/06/01 13:46:07 [error] [php] require_once(C:\wamp\www\BIS\protected\migrations\m130601_133350_create_table_user.php): failed to open stream: No such file or directory (C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php:428)
+Stack trace:
+#0 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(145): MigrateCommand->migrateDown()
+#1 unknown(0): MigrateCommand->actionDown()
+#2 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#3 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): MigrateCommand->run()
+#4 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run()
+#5 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#6 C:\wamp\www\yii\framework\yiic.php(33): CConsoleApplication->run()
+#7 C:\wamp\www\BIS\protected\yiic.php(7): require_once()
+
+2013/06/01 13:46:19 [error] [system.db.CDbCommand] Error in preparing SQL: DROP TABLE 'tbl_user'
+2013/06/01 13:46:19 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: tbl_user. The SQL statement executed was: DROP TABLE 'tbl_user'.
+2013/06/01 13:46:19 [error] [application] Failed Migrating : exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: tbl_user. The SQL statement executed was: DROP TABLE 'tbl_user'' in C:\wamp\www\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(1344): CDbCommand->execute()
+#1 C:\wamp\www\yii\framework\db\CDbMigration.php(253): CDbCommand->dropTable('tbl_user')
+#2 C:\wamp\www\BIS\protected\migrations\m130601_134249_create_table_user.php(10): CDbMigration->dropTable('tbl_user')
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(385): m130601_134249_create_table_user->up()
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(109): MigrateCommand->migrateUp('m130601_134249_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#10 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#12 {main}
+2013/06/01 13:47:00 [error] [system.db.CDbCommand] Error in preparing SQL: DROP TABLE 'tbl_user'
+2013/06/01 13:47:00 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: tbl_user. The SQL statement executed was: DROP TABLE 'tbl_user'.
+2013/06/01 13:47:00 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: tbl_user. The SQL statement executed was: DROP TABLE 'tbl_user'' in C:\wamp\www\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(1344): CDbCommand->execute()
+#1 C:\wamp\www\yii\framework\db\CDbMigration.php(253): CDbCommand->dropTable('tbl_user')
+#2 C:\wamp\www\BIS\protected\migrations\m130601_134249_create_table_user.php(33): CDbMigration->dropTable('tbl_user')
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(410): m130601_134249_create_table_user->down()
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(145): MigrateCommand->migrateDown('m130601_134249_...')
+#5 [internal function]: MigrateCommand->actionDown(Array)
+#6 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#10 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#12 {main}
+---
+2013/06/01 13:47:23 [error] [system.db.CDbCommand] Error in preparing SQL: DROP TABLE 'tbl_user'
+2013/06/01 13:47:23 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: tbl_user. The SQL statement executed was: DROP TABLE 'tbl_user'.
+2013/06/01 13:47:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: tbl_user. The SQL statement executed was: DROP TABLE 'tbl_user'' in C:\wamp\www\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(1344): CDbCommand->execute()
+#1 C:\wamp\www\yii\framework\db\CDbMigration.php(253): CDbCommand->dropTable('tbl_user')
+#2 C:\wamp\www\BIS\protected\migrations\m130601_134249_create_table_user.php(33): CDbMigration->dropTable('tbl_user')
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(410): m130601_134249_create_table_user->down()
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(145): MigrateCommand->migrateDown('m130601_134249_...')
+#5 [internal function]: MigrateCommand->actionDown(Array)
+#6 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#10 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#12 {main}
+---
+2013/06/01 13:47:33 [error] [system.db.CDbCommand] Error in preparing SQL: DROP TABLE 'tbl_user'
+2013/06/01 13:47:33 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: tbl_user. The SQL statement executed was: DROP TABLE 'tbl_user'.
+2013/06/01 13:47:33 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: tbl_user. The SQL statement executed was: DROP TABLE 'tbl_user'' in C:\wamp\www\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(1344): CDbCommand->execute()
+#1 C:\wamp\www\yii\framework\db\CDbMigration.php(253): CDbCommand->dropTable('tbl_user')
+#2 C:\wamp\www\BIS\protected\migrations\m130601_134249_create_table_user.php(33): CDbMigration->dropTable('tbl_user')
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(410): m130601_134249_create_table_user->down()
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(145): MigrateCommand->migrateDown('m130601_134249_...')
+#5 [internal function]: MigrateCommand->actionDown(Array)
+#6 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#10 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#12 {main}
+---
+2013/06/01 13:47:38 [error] [system.db.CDbCommand] Error in preparing SQL: DROP TABLE 'tbl_user'
+2013/06/01 13:47:38 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: tbl_user. The SQL statement executed was: DROP TABLE 'tbl_user'.
+2013/06/01 13:47:38 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: tbl_user. The SQL statement executed was: DROP TABLE 'tbl_user'' in C:\wamp\www\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(1344): CDbCommand->execute()
+#1 C:\wamp\www\yii\framework\db\CDbMigration.php(253): CDbCommand->dropTable('tbl_user')
+#2 C:\wamp\www\BIS\protected\migrations\m130601_134249_create_table_user.php(33): CDbMigration->dropTable('tbl_user')
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(410): m130601_134249_create_table_user->down()
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(145): MigrateCommand->migrateDown('m130601_134249_...')
+#5 [internal function]: MigrateCommand->actionDown(Array)
+#6 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#10 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#12 {main}
+---
+2013/06/01 13:48:06 [error] [system.db.CDbCommand] Error in preparing SQL: DROP TABLE 'tbl_user'
+2013/06/01 13:48:06 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: tbl_user. The SQL statement executed was: DROP TABLE 'tbl_user'.
+2013/06/01 13:48:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: tbl_user. The SQL statement executed was: DROP TABLE 'tbl_user'' in C:\wamp\www\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(1344): CDbCommand->execute()
+#1 C:\wamp\www\yii\framework\db\CDbMigration.php(253): CDbCommand->dropTable('tbl_user')
+#2 C:\wamp\www\BIS\protected\migrations\m130601_134249_create_table_user.php(33): CDbMigration->dropTable('tbl_user')
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(410): m130601_134249_create_table_user->down()
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(145): MigrateCommand->migrateDown('m130601_134249_...')
+#5 [internal function]: MigrateCommand->actionDown(Array)
+#6 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#10 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#12 {main}
+---
+2013/06/01 13:48:12 [error] [system.db.CDbCommand] Error in preparing SQL: DROP TABLE 'tbl_user'
+2013/06/01 13:48:12 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: tbl_user. The SQL statement executed was: DROP TABLE 'tbl_user'.
+2013/06/01 13:48:12 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: tbl_user. The SQL statement executed was: DROP TABLE 'tbl_user'' in C:\wamp\www\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(1344): CDbCommand->execute()
+#1 C:\wamp\www\yii\framework\db\CDbMigration.php(253): CDbCommand->dropTable('tbl_user')
+#2 C:\wamp\www\BIS\protected\migrations\m130601_134249_create_table_user.php(33): CDbMigration->dropTable('tbl_user')
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(410): m130601_134249_create_table_user->down()
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(145): MigrateCommand->migrateDown('m130601_134249_...')
+#5 [internal function]: MigrateCommand->actionDown(Array)
+#6 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#10 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#12 {main}
+---
+2013/06/01 13:49:18 [error] [system.db.CDbCommand] Error in preparing SQL: DROP TABLE 'tbl_user'
+2013/06/01 13:49:18 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: tbl_user. The SQL statement executed was: DROP TABLE 'tbl_user'.
+2013/06/01 13:49:18 [error] [application] Failed Migrating : exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: tbl_user. The SQL statement executed was: DROP TABLE 'tbl_user'' in C:\wamp\www\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(1344): CDbCommand->execute()
+#1 C:\wamp\www\yii\framework\db\CDbMigration.php(253): CDbCommand->dropTable('tbl_user')
+#2 C:\wamp\www\BIS\protected\migrations\m130601_134249_create_table_user.php(10): CDbMigration->dropTable('tbl_user')
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(385): m130601_134249_create_table_user->up()
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(109): MigrateCommand->migrateUp('m130601_134249_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#10 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#12 {main}
+2013/06/01 13:53:37 [error] [system.db.CDbCommand] Error in preparing SQL: DROP TABLE 'tbl_user'
+2013/06/01 13:53:37 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: tbl_user. The SQL statement executed was: DROP TABLE 'tbl_user'.
+2013/06/01 13:53:37 [error] [application] Failed Migrating : exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: tbl_user. The SQL statement executed was: DROP TABLE 'tbl_user'' in C:\wamp\www\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(1344): CDbCommand->execute()
+#1 C:\wamp\www\yii\framework\db\CDbMigration.php(253): CDbCommand->dropTable('tbl_user')
+#2 C:\wamp\www\BIS\protected\migrations\m130601_134249_create_table_user.php(10): CDbMigration->dropTable('tbl_user')
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(385): m130601_134249_create_table_user->up()
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(109): MigrateCommand->migrateUp('m130601_134249_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#10 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#12 {main}
+2013/06/01 13:54:01 [error] [system.db.CDbCommand] Error in preparing SQL: DROP TABLE 'tbl_user'
+2013/06/01 13:54:01 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: tbl_user. The SQL statement executed was: DROP TABLE 'tbl_user'.
+2013/06/01 13:54:01 [error] [application] Failed Migrating : exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: tbl_user. The SQL statement executed was: DROP TABLE 'tbl_user'' in C:\wamp\www\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(1344): CDbCommand->execute()
+#1 C:\wamp\www\yii\framework\db\CDbMigration.php(253): CDbCommand->dropTable('tbl_user')
+#2 C:\wamp\www\BIS\protected\migrations\m130601_134249_create_table_user.php(10): CDbMigration->dropTable('tbl_user')
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(385): m130601_134249_create_table_user->up()
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(109): MigrateCommand->migrateUp('m130601_134249_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#10 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#12 {main}
+2013/06/01 13:57:53 [error] [system.db.CDbCommand] Error in preparing SQL: DROP TABLE 'tbl_user'
+2013/06/01 13:57:53 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: tbl_user. The SQL statement executed was: DROP TABLE 'tbl_user'.
+2013/06/01 13:57:53 [error] [application] Failed Migrating : exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: tbl_user. The SQL statement executed was: DROP TABLE 'tbl_user'' in C:\wamp\www\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(1344): CDbCommand->execute()
+#1 C:\wamp\www\yii\framework\db\CDbMigration.php(253): CDbCommand->dropTable('tbl_user')
+#2 C:\wamp\www\BIS\protected\migrations\m130601_134249_create_table_user.php(10): CDbMigration->dropTable('tbl_user')
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(385): m130601_134249_create_table_user->up()
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(109): MigrateCommand->migrateUp('m130601_134249_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#10 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#12 {main}
+2013/06/01 13:59:02 [error] [system.db.CDbCommand] Error in preparing SQL: DROP TABLE 'tbl_user'
+2013/06/01 13:59:02 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: tbl_user. The SQL statement executed was: DROP TABLE 'tbl_user'.
+2013/06/01 13:59:02 [error] [application] Failed Migrating : exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: tbl_user. The SQL statement executed was: DROP TABLE 'tbl_user'' in C:\wamp\www\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(1344): CDbCommand->execute()
+#1 C:\wamp\www\yii\framework\db\CDbMigration.php(253): CDbCommand->dropTable('tbl_user')
+#2 C:\wamp\www\BIS\protected\migrations\m130601_134249_create_table_user.php(10): CDbMigration->dropTable('tbl_user')
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(385): m130601_134249_create_table_user->up()
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(109): MigrateCommand->migrateUp('m130601_134249_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#10 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#12 {main}
+2013/06/01 14:03:49 [error] [system.db.CDbCommand] Error in preparing SQL: DROP TABLE 'tbl_user'
+2013/06/01 14:03:49 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: tbl_user. The SQL statement executed was: DROP TABLE 'tbl_user'.
+2013/06/01 14:03:49 [error] [application] Failed Migrating : exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: tbl_user. The SQL statement executed was: DROP TABLE 'tbl_user'' in C:\wamp\www\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(1344): CDbCommand->execute()
+#1 C:\wamp\www\yii\framework\db\CDbMigration.php(253): CDbCommand->dropTable('tbl_user')
+#2 C:\wamp\www\BIS\protected\migrations\m130601_134249_create_table_user.php(10): CDbMigration->dropTable('tbl_user')
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(385): m130601_134249_create_table_user->up()
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(109): MigrateCommand->migrateUp('m130601_134249_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#10 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#12 {main}
+2013/06/01 14:08:26 [error] [system.db.CDbCommand] Error in preparing SQL: DROP TABLE 'tbl_user'
+2013/06/01 14:08:26 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: tbl_user. The SQL statement executed was: DROP TABLE 'tbl_user'.
+2013/06/01 14:08:26 [error] [application] Failed Migrating : exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: tbl_user. The SQL statement executed was: DROP TABLE 'tbl_user'' in C:\wamp\www\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(1344): CDbCommand->execute()
+#1 C:\wamp\www\yii\framework\db\CDbMigration.php(253): CDbCommand->dropTable('tbl_user')
+#2 C:\wamp\www\BIS\protected\migrations\m130601_134249_create_table_user.php(10): CDbMigration->dropTable('tbl_user')
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(385): m130601_134249_create_table_user->up()
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(109): MigrateCommand->migrateUp('m130601_134249_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#10 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#12 {main}
+2013/06/01 14:10:19 [error] [system.db.CDbCommand] Error in preparing SQL: DROP TABLE 'tbl_user'
+2013/06/01 14:10:19 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: tbl_user. The SQL statement executed was: DROP TABLE 'tbl_user'.
+2013/06/01 14:10:19 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: tbl_user. The SQL statement executed was: DROP TABLE 'tbl_user'' in C:\wamp\www\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(1344): CDbCommand->execute()
+#1 C:\wamp\www\yii\framework\db\CDbMigration.php(253): CDbCommand->dropTable('tbl_user')
+#2 C:\wamp\www\BIS\protected\migrations\m130601_140956_create_table_user.php(8): CDbMigration->dropTable('tbl_user')
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(385): m130601_140956_create_table_user->up()
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(109): MigrateCommand->migrateUp('m130601_140956_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#10 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#12 {main}
+---
+2013/06/01 14:10:37 [error] [php] require_once(C:\wamp\www\BIS\protected\migrations\m130601_133350_create_table_user.php): failed to open stream: No such file or directory (C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php:428)
+Stack trace:
+#0 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(145): MigrateCommand->migrateDown()
+#1 unknown(0): MigrateCommand->actionDown()
+#2 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#3 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): MigrateCommand->run()
+#4 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run()
+#5 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#6 C:\wamp\www\yii\framework\yiic.php(33): CConsoleApplication->run()
+#7 C:\wamp\www\BIS\protected\yiic.php(7): require_once()
+
+2013/06/02 13:49:10 [error] [php] require_once(C:\wamp\www\BIS\protected\migrations\m130601_133350_create_table_user.php): failed to open stream: No such file or directory (C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php:428)
+Stack trace:
+#0 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(145): MigrateCommand->migrateDown()
+#1 unknown(0): MigrateCommand->actionDown()
+#2 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#3 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): MigrateCommand->run()
+#4 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run()
+#5 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#6 C:\wamp\www\yii\framework\yiic.php(33): CConsoleApplication->run()
+#7 C:\wamp\www\BIS\protected\yiic.php(7): require_once()
+
+2013/06/02 13:58:19 [error] [system.db.CDbCommand] Error in preparing SQL: CREATE TABLE 'tbl_user' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"username" string(100) NOT NULL,
+	"password" string(100) NOT NULL,
+	"email" string(100) NOT NULL
+)
+2013/06/02 13:58:19 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 table 'tbl_user' already exists. The SQL statement executed was: CREATE TABLE 'tbl_user' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"username" string(100) NOT NULL,
+	"password" string(100) NOT NULL,
+	"email" string(100) NOT NULL
+).
+2013/06/02 13:58:19 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 table 'tbl_user' already exists. The SQL statement executed was: CREATE TABLE 'tbl_user' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"username" string(100) NOT NULL,
+	"password" string(100) NOT NULL,
+	"email" string(100) NOT NULL
+)' in C:\wamp\www\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(1321): CDbCommand->execute()
+#1 C:\wamp\www\yii\framework\db\CDbMigration.php(228): CDbCommand->createTable('tbl_user', Array, NULL)
+#2 C:\wamp\www\BIS\protected\migrations\m130602_135759_up_table.php(13): CDbMigration->createTable('tbl_user', Array)
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(385): m130602_135759_up_table->up()
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(109): MigrateCommand->migrateUp('m130602_135759_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#10 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#12 {main}
+---
+2013/06/02 13:58:48 [error] [system.db.CDbCommand] Error in preparing SQL: CREATE TABLE 'tbl_user' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"username" string(100) NOT NULL,
+	"password" string(100) NOT NULL,
+	"email" string(100) NOT NULL
+)
+2013/06/02 13:58:48 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 table 'tbl_user' already exists. The SQL statement executed was: CREATE TABLE 'tbl_user' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"username" string(100) NOT NULL,
+	"password" string(100) NOT NULL,
+	"email" string(100) NOT NULL
+).
+2013/06/02 13:58:48 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 table 'tbl_user' already exists. The SQL statement executed was: CREATE TABLE 'tbl_user' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"username" string(100) NOT NULL,
+	"password" string(100) NOT NULL,
+	"email" string(100) NOT NULL
+)' in C:\wamp\www\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(1321): CDbCommand->execute()
+#1 C:\wamp\www\yii\framework\db\CDbMigration.php(228): CDbCommand->createTable('tbl_user', Array, NULL)
+#2 C:\wamp\www\BIS\protected\migrations\m130602_135759_up_table.php(13): CDbMigration->createTable('tbl_user', Array)
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(385): m130602_135759_up_table->up()
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(109): MigrateCommand->migrateUp('m130602_135759_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#10 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#12 {main}
+---
+2013/06/02 13:58:53 [error] [system.db.CDbCommand] Error in preparing SQL: CREATE TABLE 'tbl_user' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"username" string(100) NOT NULL,
+	"password" string(100) NOT NULL,
+	"email" string(100) NOT NULL
+)
+2013/06/02 13:58:53 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 table 'tbl_user' already exists. The SQL statement executed was: CREATE TABLE 'tbl_user' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"username" string(100) NOT NULL,
+	"password" string(100) NOT NULL,
+	"email" string(100) NOT NULL
+).
+2013/06/02 13:58:53 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 table 'tbl_user' already exists. The SQL statement executed was: CREATE TABLE 'tbl_user' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"username" string(100) NOT NULL,
+	"password" string(100) NOT NULL,
+	"email" string(100) NOT NULL
+)' in C:\wamp\www\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(1321): CDbCommand->execute()
+#1 C:\wamp\www\yii\framework\db\CDbMigration.php(228): CDbCommand->createTable('tbl_user', Array, NULL)
+#2 C:\wamp\www\BIS\protected\migrations\m130602_135759_up_table.php(13): CDbMigration->createTable('tbl_user', Array)
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(385): m130602_135759_up_table->up()
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(109): MigrateCommand->migrateUp('m130602_135759_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#10 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#12 {main}
+---
+2013/06/02 13:59:04 [error] [system.db.CDbCommand] Error in preparing SQL: CREATE TABLE 'tbl_user' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"username" string(100) NOT NULL,
+	"password" string(100) NOT NULL,
+	"email" string(100) NOT NULL
+)
+2013/06/02 13:59:04 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 table 'tbl_user' already exists. The SQL statement executed was: CREATE TABLE 'tbl_user' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"username" string(100) NOT NULL,
+	"password" string(100) NOT NULL,
+	"email" string(100) NOT NULL
+).
+2013/06/02 13:59:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 table 'tbl_user' already exists. The SQL statement executed was: CREATE TABLE 'tbl_user' (
+	"id" integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"username" string(100) NOT NULL,
+	"password" string(100) NOT NULL,
+	"email" string(100) NOT NULL
+)' in C:\wamp\www\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(1321): CDbCommand->execute()
+#1 C:\wamp\www\yii\framework\db\CDbMigration.php(228): CDbCommand->createTable('tbl_user', Array, NULL)
+#2 C:\wamp\www\BIS\protected\migrations\m130602_135759_up_table.php(13): CDbMigration->createTable('tbl_user', Array)
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(385): m130602_135759_up_table->up()
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(109): MigrateCommand->migrateUp('m130602_135759_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#10 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#12 {main}
+---
+2013/06/02 14:16:32 [error] [php] require_once(C:\wamp\www\BIS\protected\migrations\m130601_140956_create_table_user.php): failed to open stream: No such file or directory (C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php:428)
+Stack trace:
+#0 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(145): MigrateCommand->migrateDown()
+#1 unknown(0): MigrateCommand->actionDown()
+#2 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#3 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): MigrateCommand->run()
+#4 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run()
+#5 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#6 C:\wamp\www\yii\framework\yiic.php(33): CConsoleApplication->run()
+#7 C:\wamp\www\BIS\protected\yiic.php(7): require_once()
+
+2013/06/02 14:16:38 [error] [system.db.CDbCommand] Error in preparing SQL: DROP TABLE 'tbl_user'
+2013/06/02 14:16:38 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: tbl_user. The SQL statement executed was: DROP TABLE 'tbl_user'.
+2013/06/02 14:16:38 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: tbl_user. The SQL statement executed was: DROP TABLE 'tbl_user'' in C:\wamp\www\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(1344): CDbCommand->execute()
+#1 C:\wamp\www\yii\framework\db\CDbMigration.php(253): CDbCommand->dropTable('tbl_user')
+#2 C:\wamp\www\BIS\protected\migrations\m130602_140024_default_user_table.php(7): CDbMigration->dropTable('tbl_user')
+#3 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(385): m130602_140024_default_user_table->up()
+#4 C:\wamp\www\yii\framework\cli\commands\MigrateCommand.php(109): MigrateCommand->migrateUp('m130602_140024_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 C:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 C:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#8 C:\wamp\www\yii\framework\console\CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CConsoleApplication->processRequest()
+#10 C:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#11 C:\wamp\www\BIS\protected\yiic.php(7): require_once('C:\wamp\www\yii...')
+#12 {main}
+---
